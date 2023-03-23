@@ -1,4 +1,4 @@
-public class UserController extends AbstractController<User, Integer> {
+public class MySqlController extends AbstractController<User, Integer> {
     public static final String SELECT_ALL_USERS = "SELECT * FROM SHEMA.USER";
 
     @Override

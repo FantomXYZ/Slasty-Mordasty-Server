@@ -1,3 +1,8 @@
+package java.by.fpmibsu.slastymordasty.dao;
+
+import java.sql.Connection;
+import java.util.List;
+
 public abstract class AbstractController <E, K> {
     private Connection connection;
     private ConnectionPool connectionPool;

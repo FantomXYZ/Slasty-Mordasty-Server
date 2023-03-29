@@ -1,9 +1,10 @@
-import by.fpmibsu.PCBuilder.entity.component.Motherboard;
+package java.by.fpmibsu.slastymordasty.dao;
+
 
 import java.sql.*;
 
 public class Main {
-    public static void main(String[] args) throws SQLException, ClassNotFoundException, InstantiationException, IllegalAccessException {
+    public static void main() throws SQLException, ClassNotFoundException, InstantiationException, IllegalAccessException {
 
         Class.forName("com.mysql.cj.jdbc.Driver");
         Connection connection = DriverManager.getConnection(
@@ -17,7 +18,7 @@ public class Main {
             int id = resultSet.getInt("ID");
             String name = resultSet.getString("NAME");
             String password = resultSet.getString("LOGIN");
-            System.out.println(id + " " + login + " " + password);
+            System.out.println(id + " " + name + " " + password);
         }
     }
 }

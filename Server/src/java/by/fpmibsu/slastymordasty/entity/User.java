@@ -2,7 +2,7 @@ package java.by.fpmibsu.slastymordasty.entity;
 
 public class User extends Entity{
 
-
+    private long userId;
     private String name;
     private String surname;
     private char[] password;

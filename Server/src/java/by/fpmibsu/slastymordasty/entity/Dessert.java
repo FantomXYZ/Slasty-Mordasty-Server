@@ -6,5 +6,5 @@ import java.util.List;
 import java.util.Map;
 
 public abstract class Dessert extends Entity{
-    Map<Component, Double> componentMap = new HashMap<>();
+    private List<Component> recipe = new ArrayList<>();
 }

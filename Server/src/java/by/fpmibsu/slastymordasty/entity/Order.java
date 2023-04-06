@@ -5,7 +5,7 @@ import java.util.Date;
 import java.util.List;
 
 public class Order extends Entity{
-    User user;
+    int userId;
     List<Item> basket = new ArrayList<>();
     Date orderDate;
     Date deliveryDate;

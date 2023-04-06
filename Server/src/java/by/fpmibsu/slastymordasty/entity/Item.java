@@ -1,5 +1,5 @@
 package java.by.fpmibsu.slastymordasty.entity;
 
 public interface Item {
-    private int quantity;
+    int quantity = 0;
 }

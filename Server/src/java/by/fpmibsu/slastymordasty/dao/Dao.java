@@ -1,5 +1,4 @@
 package java.by.fpmibsu.slastymordasty.dao;
-
 import java.by.fpmibsu.slastymordasty.dao.DaoException;
 import java.by.fpmibsu.slastymordasty.entity.Entity;
 import java.sql.Connection;

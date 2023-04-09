@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Slasty-Mordasty:Web exploded">
+    <output-path>C:/Program Files/Java/artifacts/Slasty_Mordasty_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Slasty-Mordasty/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Slasty-Mordasty" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

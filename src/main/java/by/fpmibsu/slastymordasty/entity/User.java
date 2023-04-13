@@ -8,6 +8,9 @@ public class User extends Entity{
     private int role;
     private String address;
 
+    public User() {
+    }
+
     public User(long id, String name, String email, String phoneNumber, String password, int role, String address) {
         this.id = id;
         this.name = name;
@@ -25,6 +28,14 @@ public class User extends Entity{
         this.password = password;
         this.role = role;
         this.address = address;
+    }
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
     }
 
     public String getName() {

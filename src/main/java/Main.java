@@ -12,7 +12,7 @@ public class Main {
 
 
         UserDao userDao = new UserDao();
-        //userDao.insertUser(new User("Èâàí","van@bsu.by","+375392347406","van",0,"ÁÃÓ"));
+        //userDao.insertUser(new User("ï¿½ï¿½ï¿½ï¿½","van@bsu.by","+375392347406","van",0,"ï¿½ï¿½ï¿½"));
         userDao.deleteUserById(5);
         for(User user: userDao.getAllUsers()){
             System.out.println(user.toString());

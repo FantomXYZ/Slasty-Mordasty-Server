@@ -6,28 +6,32 @@ public class User extends Entity{
     private String phoneNumber;
     private String password;
     private int role;
-    private String address;
+    private String addressStreet;
+
+    private String numHouseFlat;
 
     public User() {
     }
 
-    public User(long id, String name, String email, String phoneNumber, String password, int role, String address) {
+    public User(long id, String name, String email, String phoneNumber, String password, int role, String addressStreet,String numHouseFlat) {
         this.id = id;
         this.name = name;
         this.email = email;
         this.phoneNumber = phoneNumber;
         this.password = password;
         this.role = role;
-        this.address = address;
+        this.addressStreet = addressStreet;
+        this.numHouseFlat = numHouseFlat;
     }
 
-    public User(String name, String email, String phoneNumber, String password, int role, String address) {
+    public User(String name, String email, String phoneNumber, String password, int role, String addressStreet,String numHouseFlat) {
         this.name = name;
         this.email = email;
         this.phoneNumber = phoneNumber;
         this.password = password;
         this.role = role;
-        this.address = address;
+        this.addressStreet = addressStreet;
+        this.numHouseFlat = numHouseFlat;
     }
 
     public long getId() {
@@ -78,12 +82,20 @@ public class User extends Entity{
         this.role = role;
     }
 
-    public String getAddress() {
-        return address;
+    public String getAddressStreet() {
+        return addressStreet;
     }
 
-    public void setAddress(String address) {
-        this.address = address;
+    public void setAddressStreet(String addressStreet) {
+        this.addressStreet = addressStreet;
+    }
+
+    public String getNumHouseFlat() {
+        return numHouseFlat;
+    }
+
+    public void setNumHouseFlat(String numHouseFlat) {
+        this.numHouseFlat = numHouseFlat;
     }
 
 
@@ -92,6 +104,6 @@ public class User extends Entity{
 
     @Override
     public String toString() {
-        return id + " " + name + " " + email + " " + phoneNumber + " " + role + " " + address;
+        return id + " " + name + " " + email + " " + phoneNumber + " " + role + " " + addressStreet + " " + numHouseFlat;
     }
 }

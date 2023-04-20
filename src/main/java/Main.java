@@ -12,8 +12,8 @@ public class Main {
 
 
         UserDao userDao = new UserDao();
-        //userDao.insertUser(new User("����","van@bsu.by","+375392347406","van",0,"���"));
-        userDao.deleteUserById(5);
+        //userDao.insertUser(new User("Fantom", "p_d@mail.ru", "+375445591987","fan",1,"Октябрьская","703/10"));
+
         for(User user: userDao.getAllUsers()){
             System.out.println(user.toString());
         }

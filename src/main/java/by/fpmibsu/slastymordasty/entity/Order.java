@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Order extends Entity{
     long userId;
-    Item item;
+    List<Item> basket = new ArrayList<Item>();
     double cost;
     String comment;
     Date orderDate;
@@ -14,7 +14,7 @@ public class Order extends Entity{
 
     public Order(long userId, Item item, double cost, String comment, Date orderDate, Date deliveryDate) {
         this.userId = userId;
-        this.item = item;
+        this.basket = basket;
         this.cost = cost;
         this.comment = comment;
         this.orderDate = orderDate;
@@ -36,12 +36,12 @@ public class Order extends Entity{
         this.userId = userId;
     }
 
-    public Item getItem() {
-        return item;
+    public List<Item> getBasket() {
+        return basket;
     }
 
     public void setItem(Item item) {
-        this.item = item;
+        this.basket = basket;
     }
 
     public double getCost() {

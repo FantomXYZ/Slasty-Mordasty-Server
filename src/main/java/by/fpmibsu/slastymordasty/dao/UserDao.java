@@ -10,14 +10,15 @@ public class UserDao{
     Connection connection;
 
     public static final String GET_ALL = "SELECT * FROM user";
-    public static final String INSERT_NEW = "INSERT INTO user(NAME,EMAIL,PHONE,PASSWORD,ROLE,ADDRESS) VALUES(?,?,?,?,?,?)";
+    public static final String INSERT_NEW = "INSERT INTO user(NAME,EMAIL,PHONENUMBER,PASSWORD,ROLE,ADDRESSSTREET,NUMHOUSEFLAT) VALUES(?,?,?,?,?,?,?)";
 
-    public static final String DELETE_ID ="DELETE FROM user WHERE ID =?";
+    public static final String DELETE_ID ="DELETE FROM user WHERE USERID =?";
 
-    public static final String UPDATE_EMAIL = "UPDATE user SET EMAIL =? WHERE ID =?";
-    public static final String UPDATE_PHONE = "UPDATE user SET PHONE =? WHERE ID =?";
-    public static final String UPDATE_PASSWORD = "UPDATE user SET PASSWORD =? WHERE ID =?";
-    public static final String UPDATE_ADDRESS = "UPDATE user SET ADDRESS =? WHERE ID =?";
+    public static final String UPDATE_EMAIL = "UPDATE user SET EMAIL =? WHERE USERID =?";
+    public static final String UPDATE_PHONE = "UPDATE user SET PHONENUMBER =? WHERE USERID =?";
+    public static final String UPDATE_PASSWORD = "UPDATE user SET PASSWORD =? WHERE USERID =?";
+    public static final String UPDATE_ADDRESSSTREET = "UPDATE user SET ADDRESSSTREET =? WHERE USERID =?";
+    public static final String UPDATE_NUMHOUSEFLAT = "UPDATE user SET NUMHOUSEFLAT =? WHERE USERID =?";
 
     public UserDao(){
         MySQLConnection mySQLConnection = new MySQLConnection();
@@ -25,7 +26,7 @@ public class UserDao{
     }
 
     public List<User> getAllUsers(){
-        List<User> list = new ArrayList<User>();
+        List<User> list = new ArrayList<>();
 
 
         try {
@@ -34,13 +35,14 @@ public class UserDao{
 
             while(rs.next()){
                 User user = new User();
-                user.setId(rs.getInt("ID"));
+                user.setId(rs.getInt("USERID"));
                 user.setName(rs.getString("NAME"));
                 user.setEmail(rs.getString("EMAIL"));
-                user.setPhoneNumber(rs.getString("PHONE"));
+                user.setPhoneNumber(rs.getString("PHONENUMBER"));
                 user.setPassword(rs.getString("PASSWORD"));
                 user.setRole(rs.getInt("ROLE"));
-                user.setAddress(rs.getString("ADDRESS"));
+                user.setAddressStreet(rs.getString("ADDRESSSTREET"));
+                user.setNumHouseFlat(rs.getString("NUMHOUSEFLAT"));
                 list.add(user);
             }
 
@@ -61,7 +63,8 @@ public class UserDao{
             ps.setString(3, user.getPhoneNumber());
             ps.setString(4, user.getPassword());
             ps.setInt(5, user.getRole());
-            ps.setString(6, user.getAddress());
+            ps.setString(6, user.getAddressStreet());
+            ps.setString(7, user.getNumHouseFlat());
 
             ps.execute();
         } catch (SQLException e) {
@@ -113,12 +116,18 @@ public class UserDao{
         }
     }
 
-    public void updateUserAddress(long id,String address){
+    public void updateUserAddress(long id,String addressStreet, String numHouseFlat){
         try {
-            PreparedStatement ps = connection.prepareStatement(UPDATE_ADDRESS);
-            ps.setString(1, address);
+            PreparedStatement ps = connection.prepareStatement(UPDATE_ADDRESSSTREET);
+            ps.setString(1, addressStreet);
             ps.setLong(2, id);
             ps.execute();
+
+            ps = connection.prepareStatement(UPDATE_NUMHOUSEFLAT);
+            ps.setString(1, numHouseFlat);
+            ps.setLong(2, id);
+            ps.execute();
+
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }

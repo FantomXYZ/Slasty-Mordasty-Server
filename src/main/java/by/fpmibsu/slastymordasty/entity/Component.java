@@ -3,7 +3,7 @@ package by.fpmibsu.slastymordasty.entity;
 public class Component extends Entity{
     Image image;
     String title;
-    double weight;
+    double price;
     NutritionalValue nutritionalValue;
     String description;
 
@@ -23,12 +23,12 @@ public class Component extends Entity{
         this.title = title;
     }
 
-    public double getWeight() {
-        return weight;
+    public double getPrice() {
+        return price;
     }
 
-    public void setWeight(double weight) {
-        this.weight = weight;
+    public void setPrice(double price) {
+        this.price = price;
     }
 
     public NutritionalValue getNutritionalValue() {
@@ -45,5 +45,9 @@ public class Component extends Entity{
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public String toString(){
+        return id + " " + title + " price: " + price + nutritionalValue.toString() + description;
     }
 }

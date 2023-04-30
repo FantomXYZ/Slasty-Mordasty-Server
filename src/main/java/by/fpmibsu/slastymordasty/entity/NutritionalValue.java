@@ -46,4 +46,16 @@ public class NutritionalValue extends Entity {
     public void setCaloriesKcal(double caloriesKcal) {
         this.caloriesKcal = caloriesKcal;
     }
+
+    @Override
+    public String toString() {
+        return "NutritionalValue{" +
+                ", id=" + id +
+                "proteins=" + proteins +
+                ", fats=" + fats +
+                ", carbohydrates=" + carbohydrates +
+                ", caloriesKJoules=" + caloriesKJoules +
+                ", caloriesKcal=" + caloriesKcal +
+                '}';
+    }
 }

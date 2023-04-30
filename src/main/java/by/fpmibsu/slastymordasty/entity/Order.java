@@ -75,4 +75,13 @@ public class Order extends Entity{
     public void setDeliveryDate(Date deliveryDate) {
         this.deliveryDate = deliveryDate;
     }
+
+    @Override
+    public String toString() {
+        String s = id + " user: " + userId + '\n';
+        for(Item i: basket){
+            s += i.toString() + '\n';
+        }
+        return s;
+    }
 }

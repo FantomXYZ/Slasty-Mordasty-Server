@@ -1,0 +1,15 @@
+
+`	java:S112."FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+`	java:S112A"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+`	java:S112N"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+`	java:S112Y"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+e
+java:S20958"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ù–¹
+j
+java:S2095T"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(×ßåªşÿÿÿÿ
+d
+java:S2095J"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(†Î§
+e
+java:S2095""OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(®µ“ 
+^
+java:S1128"BRemove this unused import 'by.fpmibsu.slastymordasty.entity.User'.(ÇÖZ8ò•ËÎƒ1

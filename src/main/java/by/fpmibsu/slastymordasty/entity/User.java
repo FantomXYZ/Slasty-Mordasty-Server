@@ -99,8 +99,34 @@ public class User extends Entity{
     }
 
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        if(id != ((User) o).id) return false;
 
+        User user = (User) o;
 
+        if (role != user.role) return false;
+        if (!name.equals(user.name)) return false;
+        if (!email.equals(user.email)) return false;
+        if (!phoneNumber.equals(user.phoneNumber)) return false;
+        if (!password.equals(user.password)) return false;
+        if (!addressStreet.equals(user.addressStreet)) return false;
+        return numHouseFlat.equals(user.numHouseFlat);
+    }
+
+    @Override
+    public int hashCode() {
+        int result = name.hashCode();
+        result = 31 * result + email.hashCode();
+        result = 31 * result + phoneNumber.hashCode();
+        result = 31 * result + password.hashCode();
+        result = 31 * result + role;
+        result = 31 * result + addressStreet.hashCode();
+        result = 31 * result + numHouseFlat.hashCode();
+        return result;
+    }
 
     @Override
     public String toString() {

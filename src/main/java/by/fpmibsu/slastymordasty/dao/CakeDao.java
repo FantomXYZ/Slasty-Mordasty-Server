@@ -14,8 +14,8 @@ import java.util.List;
 public class CakeDao {
     Connection connection;
 
-    public static final String GET_ALL = "SELECT * FROM cake";
-    public static final String GET_BY_ID = "SELECT * FROM cake WHERE idCake = ?";
+    public static final String GET_ALL = "SELECT * FROM dessert";
+    public static final String GET_BY_ID = "SELECT * FROM dessert WHERE idDessert = ?";
 
     //public static final String INSERT_NEW = "INSERT INTO image (idNutritionalValue,idImage,title,description,price) VALUES (?,?,?,?,?)";
 
@@ -24,8 +24,8 @@ public class CakeDao {
         connection = mySQLConnection.getConnection();
     }
 
-    public List<Item> getAll() {
-        List<Item> list = new ArrayList<>();
+    public List<Cake> getAll() {
+        List<Cake> list = new ArrayList<>();
 
         try {
             PreparedStatement ps = connection.prepareStatement(GET_ALL);
@@ -33,7 +33,7 @@ public class CakeDao {
 
             while(resultSet.next()){
                 Cake cake = new Cake();
-                cake.setId(resultSet.getLong("idCake"));
+                cake.setId(resultSet.getLong("idDessert"));
 
                 NutritionalValueDao nutritionalValueDao = new NutritionalValueDao();
                 long nutId = resultSet.getLong("idNutritionalValue");

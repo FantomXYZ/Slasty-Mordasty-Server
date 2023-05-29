@@ -2,6 +2,7 @@ package by.fpmibsu.slastymordasty.dao;
 
 import by.fpmibsu.slastymordasty.entity.User;
 
+import javax.servlet.RequestDispatcher;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -20,9 +21,46 @@ public class UserDao{
     public static final String UPDATE_ADDRESSSTREET = "UPDATE user SET ADDRESSSTREET =? WHERE USERID =?";
     public static final String UPDATE_NUMHOUSEFLAT = "UPDATE user SET NUMHOUSEFLAT =? WHERE USERID =?";
 
+    public static final String GET_BY_EMAIL_PASSWORD = "SELECT * FROM user WHERE email = ? AND password = ?";
+
     public UserDao(){
         MySQLConnection mySQLConnection = new MySQLConnection();
         connection = mySQLConnection.getConnection();
+    }
+
+    public boolean isExistByEmailPas(String email,String password) throws SQLException {
+        PreparedStatement ps = connection.prepareStatement(GET_BY_EMAIL_PASSWORD);
+        ps.setString(1,email);
+        ps.setString(2,password);
+        ResultSet rs = ps.executeQuery();
+
+        if(rs.next()){
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public User getUserByEmailPassword(String email,String password) throws SQLException {
+        PreparedStatement ps = connection.prepareStatement(GET_BY_EMAIL_PASSWORD);
+        ps.setString(1,email);
+        ps.setString(2,password);
+        ResultSet rs = ps.executeQuery();
+
+        User user = new User();
+
+        while (rs.next()){
+            user.setId(rs.getInt("USERID"));
+            user.setName(rs.getString("NAME"));
+            user.setEmail(rs.getString("EMAIL"));
+            user.setPhoneNumber(rs.getString("PHONENUMBER"));
+            user.setPassword(rs.getString("PASSWORD"));
+            user.setRole(rs.getInt("ROLE"));
+            user.setAddressStreet(rs.getString("ADDRESSSTREET"));
+            user.setNumHouseFlat(rs.getString("NUMHOUSEFLAT"));
+        }
+
+        return user;
     }
 
     public List<User> getAllUsers(){

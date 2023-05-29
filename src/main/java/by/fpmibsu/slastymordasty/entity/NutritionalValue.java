@@ -47,6 +47,18 @@ public class NutritionalValue extends Entity {
         this.caloriesKcal = caloriesKcal;
     }
 
+    public NutritionalValue(double proteins, double fats, double carbohydrates, double caloriesKJoules, double caloriesKcal) {
+        this.proteins = proteins;
+        this.fats = fats;
+        this.carbohydrates = carbohydrates;
+        this.caloriesKJoules = caloriesKJoules;
+        this.caloriesKcal = caloriesKcal;
+    }
+
+    public NutritionalValue(){
+
+    }
+
     @Override
     public String toString() {
         return "NutritionalValue{" +

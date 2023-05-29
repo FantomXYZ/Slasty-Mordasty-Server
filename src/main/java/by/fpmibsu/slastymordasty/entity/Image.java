@@ -11,4 +11,12 @@ public class Image extends Entity{
     public void setPath(String path) {
         this.path = path;
     }
+
+    public Image(String path) {
+        this.path = path;
+    }
+
+    public Image(){
+
+    }
 }

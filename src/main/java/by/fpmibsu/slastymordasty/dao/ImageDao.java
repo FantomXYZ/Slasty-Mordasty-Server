@@ -14,11 +14,11 @@ public class ImageDao {
     Connection connection;
 
     public static final String GET_ALL  = "SELECT * FROM image";
-    public static final String GET_BY_ID = "SELECT * FROM image WHERE IDIMAGE =?";
+    public static final String GET_BY_ID = "SELECT * FROM image WHERE idImage =?";
 
-    public static final String INSERT_NEW = "INSERT INTO image (PATH) VALUES (?)";
+    public static final String INSERT_NEW = "INSERT INTO image (path) VALUES (?)";
 
-    public static final String UPDATE_PATH = "UPDATE image SET PATH =? WHERE IDIMAGE =?";
+    public static final String UPDATE_PATH = "UPDATE image SET PATH =? WHERE idImage =?";
 
     public ImageDao(){
         MySQLConnection myconn = new MySQLConnection();
@@ -36,8 +36,8 @@ public class ImageDao {
 
             while(rs.next()){
                 Image image = new Image();
-                image.setId(rs.getInt("IDIMAGE"));
-                image.setPath(rs.getString("PATH"));
+                image.setId(rs.getInt("idImage"));
+                image.setPath(rs.getString("path"));
                 list.add(image);
             }
 
@@ -56,9 +56,11 @@ public class ImageDao {
             PreparedStatement ps = connection.prepareStatement(GET_BY_ID);
             ps.setLong(1, id);
             ResultSet rs = ps.executeQuery();
+            while(rs.next()){
+                image.setId(rs.getInt("idImage"));
+                image.setPath(rs.getString("path"));
+            }
 
-            image.setId(rs.getInt("IDIMAGE"));
-            image.setPath(rs.getString("PATH"));
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }

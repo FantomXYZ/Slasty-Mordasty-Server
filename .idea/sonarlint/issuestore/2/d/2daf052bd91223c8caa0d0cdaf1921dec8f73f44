@@ -1,0 +1,12 @@
+
+`	java:S1129"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+`	java:S112\"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+e
+java:S2095D"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ù–¹
+e
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(®µ“ 
+Q	java:S125"<This block of commented-out lines of code should be removed.(®Œ³
+_
+java:S1128"BRemove this unused import 'by.fpmibsu.slastymordasty.entity.Item'.(…ÇÂ×8«”ËÎƒ1
+k
+java:S1128"NRemove this unused import 'by.fpmibsu.slastymordasty.entity.NutritionalValue'.(ßÂ­Á8«”ËÎƒ1

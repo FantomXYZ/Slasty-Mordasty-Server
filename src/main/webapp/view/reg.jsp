@@ -11,7 +11,7 @@
     <title>Регистрация</title>
 </head>
 <body>
-<div class="registration">
+<form method="post" action="doReg.jsp">
 
     <label for="name"><b>Имя</b></label>
     <input type="text"  name="name" id="name" required> <br>
@@ -32,10 +32,7 @@
     <input type="text" name="houseFlat" id="houseFlat" required><br>
 
 
-    <form action="doReg.jsp" method="post">
-    <button type="submit"  class="registerbtn">Зарегестрироваться</button>
-    </form>
-
-</div>
+    <input class="button" type="submit" value="Зарегестрироваться">
+</form>
 </body>
 </html>

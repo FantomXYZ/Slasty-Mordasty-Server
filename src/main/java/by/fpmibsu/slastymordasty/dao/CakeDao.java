@@ -71,7 +71,7 @@ public class CakeDao {
             ResultSet resultSet = ps.executeQuery();
 
             if(resultSet.next()){
-                cake.setId(resultSet.getLong("idCake"));
+                cake.setId(resultSet.getLong("idDessert"));
 
                 NutritionalValueDao nutritionalValueDao = new NutritionalValueDao();
                 long nutId = resultSet.getLong("idNutritionalValue");

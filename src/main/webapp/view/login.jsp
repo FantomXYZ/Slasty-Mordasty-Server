@@ -14,10 +14,20 @@
 
 <form method="post" action="login.jsp">
 
+
+    <%--<%
+        String s = (String) request.getAttribute("error");
+        if(s!=null){
+            out.print("<h2>" + s + "</h2>");
+        }
+    %>--%>
+
     <input type="email" required placeholder="Email" name="email"><br>
     <input type="password" required placeholder="Пароль" name="password"><br><br>
     <input class="button" type="submit" value="Войти">
     <h2><a href="reg.jsp" methods="get">Вы у нас впервые? Создайте аккаунт</a></h2>
+
+
 
 </form>
 

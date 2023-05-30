@@ -1,6 +1,7 @@
 package by.fpmibsu.slastymordasty.controller.filters;
 
 import by.fpmibsu.slastymordasty.controller.actions.*;
+import by.fpmibsu.slastymordasty.entity.Cake;
 
 import javax.servlet.*;
 import javax.servlet.http.HttpServletRequest;
@@ -35,7 +36,11 @@ public class ActionFilter implements Filter {
         if(url.endsWith("jpg")){
             ImageAction imageAction = new ImageAction(req,resp);
             req.setAttribute("action",imageAction);
-        } else {
+        } else if(url.endsWith("info.jsp")){
+            InfoAction infoAction = new InfoAction(req,resp,Long.parseLong(url.substring("/Slasty-Mordasty/".length(), url.length() - "info.jsp".length())));
+            req.setAttribute("action",infoAction);
+        }
+        else {
             switch (url){
                 case "/Slasty-Mordasty/":
                     StartAction startAction = new StartAction(req,resp);
@@ -65,6 +70,10 @@ public class ActionFilter implements Filter {
                     break;
 
                 case "/Slasty-Mordasty/doReg.jsp":
+
+                    RegistrateAction registrateAction = new RegistrateAction(req,resp);
+                    req.setAttribute("action",registrateAction);
+
                     break;
             }
         }

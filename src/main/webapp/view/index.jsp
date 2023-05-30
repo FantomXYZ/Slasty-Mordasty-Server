@@ -43,22 +43,22 @@
             if(login!=null && password!=null){
                 if(role == 1){
                     out.print("<form action=\"stat.jsp\" method=\"get\">");
-                    out.print("<input type=\"submit\" value=\"Статистика\"/><br/>");
+                    out.print("<input type=\"submit\" value=\"Статистика\"/>");
                     out.print("</form>");
                 } else if(role == 0){
                     out.print("<form action=\"basket.jsp\" method=\"get\">");
-                    out.print("<input type=\"submit\" value=\"Корзина\"/><br/>");
+                    out.print("<input type=\"submit\" value=\"Корзина\"/>");
                     out.print("</form>");
                     out.print("<form action=\"history.jsp\" method=\"get\">");
-                    out.print("<input type=\"submit\" value=\"История заказов\"/><br/>");
+                    out.print("<input type=\"submit\" value=\"История заказов\"/>");
                     out.print("</form>");
                 }
                 out.print("<form action=\"logout.jsp\" method=\"post\">");
-                out.print("<input type=\"submit\" value=\"Выйти\"/><br/>");
+                out.print("<input type=\"submit\" value=\"Выйти\"/>");
                 out.print("</form>");
             } else{
                 out.print("<form action=\"login.jsp\" method=\"get\">");
-                out.print("<input type=\"submit\" value=\"Войти\"/><br/>");
+                out.print("<input type=\"submit\" value=\"Войти\"/>");
                 out.print("</form>");
             }
 
@@ -85,14 +85,22 @@
 
                 for(Cake item : list){
                     out.print("<div class=\"product\">");
-                    out.print("<img src=\"img/1.jpg\"" + "<br>");
+                    out.print("<img src=\"img/" + item.getImage().getPath() + "\"<br>");
                     out.print("<h3>" + item.getTitle() + "</h3>");
-                   /* out.print("<form action=\"reg.jsp\" method=\"get\">\n" +
-                            "                    <input  type=\"submit\" value=\"Подробнее\"/><br/>\n" +
-                            "                </form>\n" +
-                            "                <form action=\"reg.jsp\" method=\"get\">\n" +
-                            "                    <input  type=\"submit\" value=\"В корзину\"/><br/>\n" +
-                            "                </form>");*/
+
+
+                    out.print("<form action=\"" + item.getId() + "info.jsp\" method=\"get\">");
+                    out.print("<input type=\"submit\" value=\"Подробнее\"/><br/>");
+                    out.print("</form>");
+
+                    if(role != null && role == 0){
+                        out.print("<form action=\"toBasketJsp.jsp\" method=\"post\">");
+                        out.print("<input type=\"submit\" value=\"В корзину\"/><br/>");
+                        out.print("</form>");
+                    }
+
+
+
                     out.print("<div class=\"price\">" + item.getPrice() + "BYN</div>");
                     out.print("</div>");
                 }

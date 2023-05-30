@@ -20,4 +20,9 @@ public class UserService {
     public boolean isExistByEmailPas(String login,String password) throws SQLException {
         return userDao.isExistByEmailPas(login,password);
     }
+
+
+    public void  insertNew(User user){
+        userDao.insertUser(user);
+    }
 }

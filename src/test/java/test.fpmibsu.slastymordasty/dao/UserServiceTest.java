@@ -11,6 +11,9 @@ import static org.testng.AssertJUnit.assertEquals;
 public class UserServiceTest {
     UserService userService = new UserService();
 
+    public UserServiceTest() throws SQLException {
+    }
+
     @Test()
     void getByEmailPassword() throws SQLException {
         long id = 1;

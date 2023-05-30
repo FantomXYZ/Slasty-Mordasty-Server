@@ -1,5 +1,6 @@
 package by.fpmibsu.slastymordasty.dao;
 
+import by.fpmibsu.slastymordasty.dao.pool.DBCPDataSource;
 import by.fpmibsu.slastymordasty.entity.Cake;
 import by.fpmibsu.slastymordasty.entity.Item;
 import by.fpmibsu.slastymordasty.entity.NutritionalValue;
@@ -19,9 +20,8 @@ public class CakeDao {
 
     //public static final String INSERT_NEW = "INSERT INTO image (idNutritionalValue,idImage,title,description,price) VALUES (?,?,?,?,?)";
 
-    public CakeDao(){
-        MySQLConnection mySQLConnection = new MySQLConnection();
-        connection = mySQLConnection.getConnection();
+    public CakeDao() throws SQLException {
+        connection = DBCPDataSource.getConnection();
     }
 
     public List<Cake> getAll() {

@@ -18,6 +18,7 @@ public class ComponentsDao {
 
     Connection connection;
 
+
     public List<Component> getAllByFinalProductId(long id){
         List<Component> list = new ArrayList<>();
 

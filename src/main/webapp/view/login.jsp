@@ -8,24 +8,29 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
+    <style><%@include file="css/form.css"%></style>
     <title>Login</title>
 </head>
 <body>
 
+
+<div class="background">
+    <div class="shape"></div>
+    <div class="shape"></div>
+</div>
+
 <form method="post" action="login.jsp">
 
+    <h3>Продолжим сладкую жизнь?</h3>
 
-    <%--<%
-        String s = (String) request.getAttribute("error");
-        if(s!=null){
-            out.print("<h2>" + s + "</h2>");
-        }
-    %>--%>
+    <label for="email">Почта</label>
+    <input type="email" required placeholder="Почта" name="email" id = "email"><br>
 
-    <input type="email" required placeholder="Email" name="email"><br>
-    <input type="password" required placeholder="Пароль" name="password"><br><br>
+    <label for="password">Пароль</label>
+    <input type="password" required placeholder="Пароль" name="password" id = "password"><br><br>
+
     <input class="button" type="submit" value="Войти">
-    <h2><a href="reg.jsp" methods="get">Вы у нас впервые? Создайте аккаунт</a></h2>
+    <a class = "link" href="reg.jsp" methods="get">Вы у нас впервые? Создайте аккаунт</a>
 
 
 

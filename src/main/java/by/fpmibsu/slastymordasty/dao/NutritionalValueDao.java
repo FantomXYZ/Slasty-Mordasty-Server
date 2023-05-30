@@ -1,5 +1,6 @@
 package by.fpmibsu.slastymordasty.dao;
 
+import by.fpmibsu.slastymordasty.dao.pool.DBCPDataSource;
 import by.fpmibsu.slastymordasty.entity.NutritionalValue;
 
 import java.sql.Connection;
@@ -16,9 +17,8 @@ public class NutritionalValueDao {
     public static final String GET_ALL = "SELECT * FROM nutritionalvalue";
     public static final String GET_BY_ID = "SELECT * FROM nutritionalvalue WHERE idNutritionalValue =?";
 
-    public NutritionalValueDao() {
-        MySQLConnection myconn = new MySQLConnection();
-        connection = myconn.getConnection();
+    public NutritionalValueDao() throws SQLException {
+        connection = DBCPDataSource.getConnection();
     }
 
     public List<NutritionalValue> getAll(){

@@ -1,5 +1,6 @@
 package by.fpmibsu.slastymordasty.dao;
 
+import by.fpmibsu.slastymordasty.dao.pool.DBCPDataSource;
 import by.fpmibsu.slastymordasty.entity.Component;
 import by.fpmibsu.slastymordasty.entity.Image;
 import by.fpmibsu.slastymordasty.entity.NutritionalValue;
@@ -19,9 +20,8 @@ public class ComponentDao {
     public static final String GET_PRICE = "SELECT * FROM component WHERE idComponent = ?";
     Connection connection;
 
-    public ComponentDao(){
-        MySQLConnection mySQLConnection = new MySQLConnection();
-        connection = mySQLConnection.getConnection();
+    public ComponentDao() throws SQLException {
+        connection = DBCPDataSource.getConnection();
     }
 
 

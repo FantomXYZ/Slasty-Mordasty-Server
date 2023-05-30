@@ -9,7 +9,7 @@ public class UserService {
 
     private UserDao userDao;
 
-    public UserService(){
+    public UserService() throws SQLException {
         userDao = new UserDao();
     }
 

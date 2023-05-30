@@ -1,5 +1,6 @@
 package by.fpmibsu.slastymordasty.dao;
 
+import by.fpmibsu.slastymordasty.dao.pool.DBCPDataSource;
 import by.fpmibsu.slastymordasty.entity.Image;
 import by.fpmibsu.slastymordasty.entity.User;
 
@@ -20,9 +21,8 @@ public class ImageDao {
 
     public static final String UPDATE_PATH = "UPDATE image SET PATH =? WHERE idImage =?";
 
-    public ImageDao(){
-        MySQLConnection myconn = new MySQLConnection();
-        connection = myconn.getConnection();
+    public ImageDao() throws SQLException {
+        connection = DBCPDataSource.getConnection();
     }
 
 

@@ -1,5 +1,6 @@
 package by.fpmibsu.slastymordasty.dao;
 
+import by.fpmibsu.slastymordasty.dao.pool.DBCPDataSource;
 import by.fpmibsu.slastymordasty.entity.User;
 
 import javax.servlet.RequestDispatcher;
@@ -23,9 +24,8 @@ public class UserDao{
 
     public static final String GET_BY_EMAIL_PASSWORD = "SELECT * FROM user WHERE email = ? AND password = ?";
 
-    public UserDao(){
-        MySQLConnection mySQLConnection = new MySQLConnection();
-        connection = mySQLConnection.getConnection();
+    public UserDao() throws SQLException {
+        connection = DBCPDataSource.getConnection();
     }
 
     public boolean isExistByEmailPas(String email,String password) throws SQLException {

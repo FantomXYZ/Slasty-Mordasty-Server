@@ -6,12 +6,17 @@ import by.fpmibsu.slastymordasty.entity.Image;
 import by.fpmibsu.slastymordasty.entity.NutritionalValue;
 import org.testng.annotations.Test;
 
+import java.sql.SQLException;
+
 import static org.testng.AssertJUnit.assertEquals;
 
 
 public class CakeDaoTest {
 
     private CakeDao cakeDao = new CakeDao();
+
+    public CakeDaoTest() throws SQLException {
+    }
 
     @Test()
     void getByIdTest(){

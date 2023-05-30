@@ -9,6 +9,7 @@
 <html>
 <head>
     <title>Регистрация</title>
+    <style><%@include file="css/form.css"%></style>
 </head>
 <body>
 <form method="post" action="doReg.jsp">

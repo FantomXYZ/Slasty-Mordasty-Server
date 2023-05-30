@@ -77,6 +77,37 @@ public class Order extends Entity{
     }
 
     @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Order order = (Order) o;
+
+        if(id != order.id) return false;
+        if (userId != order.userId) return false;
+        if (Double.compare(order.cost, cost) != 0) return false;
+        if (!basket.equals(order.basket)) return false;
+        if (!comment.equals(order.comment)) return false;
+        if (!orderDate.equals(order.orderDate)) return false;
+        return deliveryDate.equals(order.deliveryDate);
+    }
+
+    @Override
+    public int hashCode() {
+        int result;
+        long temp;
+        result = (int) (id ^ (id >>> 32));
+        result = (int) (userId ^ (userId >>> 32));
+        result = 31 * result + basket.hashCode();
+        temp = Double.doubleToLongBits(cost);
+        result = 31 * result + (int) (temp ^ (temp >>> 32));
+        result = 31 * result + comment.hashCode();
+        result = 31 * result + orderDate.hashCode();
+        result = 31 * result + deliveryDate.hashCode();
+        return result;
+    }
+
+    @Override
     public String toString() {
         String s = id + " user: " + userId + '\n';
         for(Item i: basket){

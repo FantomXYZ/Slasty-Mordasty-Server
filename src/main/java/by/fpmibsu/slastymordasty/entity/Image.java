@@ -16,6 +16,21 @@ public class Image extends Entity{
         this.path = path;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Image)) return false;
+
+        Image image = (Image) o;
+
+        return getPath() != null ? getPath().equals(image.getPath()) : image.getPath() == null;
+    }
+
+    @Override
+    public int hashCode() {
+        return getPath() != null ? getPath().hashCode() : 0;
+    }
+
     public Image(){
 
     }

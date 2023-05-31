@@ -84,8 +84,8 @@ public class Cake extends Entity implements Item{
         if (Double.compare(cake.price, price) != 0) return false;
         if (!nutritionalValue100g.equals(cake.nutritionalValue100g)) return false;
         if (!image.equals(cake.image)) return false;
-        if (!title.equals(cake.title)) return false;
-        return description.equals(cake.description);
+        //if (!title.equals(cake.title)) return false;
+        return true;
     }
 
     @Override

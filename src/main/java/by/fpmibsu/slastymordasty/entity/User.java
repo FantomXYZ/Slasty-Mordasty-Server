@@ -108,11 +108,11 @@ public class User extends Entity{
         User user = (User) o;
 
         if (role != user.role) return false;
-        if (!name.equals(user.name)) return false;
+        //if (!name.equals(user.name)) return false;
         if (!email.equals(user.email)) return false;
         if (!phoneNumber.equals(user.phoneNumber)) return false;
         if (!password.equals(user.password)) return false;
-        if (!addressStreet.equals(user.addressStreet)) return false;
+        //if (!addressStreet.equals(user.addressStreet)) return false;
         return numHouseFlat.equals(user.numHouseFlat);
     }
 

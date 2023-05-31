@@ -2,6 +2,7 @@ package by.fpmibsu.slastymordasty.controller.filters;
 
 import by.fpmibsu.slastymordasty.controller.actions.*;
 import by.fpmibsu.slastymordasty.entity.Cake;
+import by.fpmibsu.slastymordasty.service.CakeService;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 
@@ -12,6 +13,8 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
 public class ActionFilter implements Filter {
+
+    private static final Logger log = Logger.getLogger(ActionFilter.class);
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
 
@@ -20,6 +23,7 @@ public class ActionFilter implements Filter {
 
     @Override
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
+
 
         HttpServletRequest req;
         HttpServletResponse resp;
@@ -31,11 +35,8 @@ public class ActionFilter implements Filter {
             return;
         }
 
-        System.out.println("*");
         String url = req.getRequestURI();
-        System.out.println(url);
-
-
+        log.info("Catch url : " + url);
 
         if(url.endsWith("jpg")){
             ImageAction imageAction = new ImageAction(req,resp);
@@ -50,6 +51,10 @@ public class ActionFilter implements Filter {
         }
         else {
             switch (url){
+                case "/Slasty-Mordasty/stat.jsp":
+                    AdminAction adminAction = new AdminAction(req,resp);
+                    req.setAttribute("action",adminAction);
+                    break;
                 case "/Slasty-Mordasty/":
                     StartAction startAction = new StartAction(req,resp);
                     req.setAttribute("action",startAction);
@@ -81,6 +86,12 @@ public class ActionFilter implements Filter {
 
                     RegistrateAction registrateAction = new RegistrateAction(req,resp);
                     req.setAttribute("action",registrateAction);
+
+                    break;
+                default:
+
+                    NotFoundAction notFoundAction = new NotFoundAction(req,resp);
+                    req.setAttribute("action",notFoundAction);
 
                     break;
             }

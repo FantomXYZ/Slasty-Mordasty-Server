@@ -31,6 +31,7 @@ public class UserDao{
     public boolean isExistByEmailPas(String email,String password) throws SQLException, InterruptedException {
         connection = ConnectionPool.getConnection();
         PreparedStatement ps = connection.prepareStatement(GET_BY_EMAIL_PASSWORD);
+
         ps.setString(1,email);
         ps.setString(2,password);
         ResultSet rs = ps.executeQuery();

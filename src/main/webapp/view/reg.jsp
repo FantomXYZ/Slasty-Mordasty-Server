@@ -9,31 +9,69 @@
 <html>
 <head>
     <title>Регистрация</title>
-    <style><%@include file="css/form.css"%></style>
+    <style><%@include file="css/regForm.css"%></style>
 </head>
 <body>
 <form method="post" action="doReg.jsp">
 
-    <label for="name"><b>Имя</b></label>
-    <input type="text"  name="name" id="name" required> <br>
+    <table>
 
-    <label for="email"><b>Email</b></label>
-    <input type="text"  name="email" id="email" required> <br>
+        <tr>
+            <td>
+                <label for="name"><b>Имя</b></label>
+                <input type="text"  name="name" id="name" required>
+            </td>
 
-    <label for="password"><b>Пароль</b></label>
-    <input type="password" name="password" id="password" required><br>
+            <td>
 
-    <label for="phone"><b>Номер телефона</b></label>
-    <input type="number" name="phone" id="phone" required><br>
+                <label for="email"><b>Email</b></label>
+                <input type="text"  name="email" id="email" required>
 
-    <label for="street"><b>Улица</b></label>
-    <input type="text"  name="street" id="street" required><br>
+            </td>
 
-    <label for="houseFlat"><b>Дом квартира</b></label>
-    <input type="text" name="houseFlat" id="houseFlat" required><br>
+        </tr>
 
+        <tr>
+            <td>
+                <label for="password"><b>Пароль</b></label>
+                <input type="password" name="password" id="password" required>
+            </td>
+
+            <td>
+                <label for="phone"><b>Номер телефона</b></label>
+                <input type="number" name="phone" id="phone" required>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="street"><b>Улица</b></label>
+                <input type="text"  name="street" id="street" required>
+            </td>
+
+            <td>
+                <label for="houseFlat"><b>Дом квартира</b></label>
+                <input type="text" name="houseFlat" id="houseFlat" required>
+            </td>
+        </tr>
+
+
+    </table>
 
     <input class="button" type="submit" value="Зарегестрироваться">
+
+
+
+
+
+
+
+
+
+
+
+
+
 </form>
 </body>
 </html>

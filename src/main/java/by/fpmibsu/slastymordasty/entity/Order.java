@@ -21,6 +21,10 @@ public class Order extends Entity{
         this.deliveryDate = deliveryDate;
     }
 
+    public Order() {
+
+    }
+
     public long getId(){
         return id;
     }

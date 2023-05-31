@@ -31,7 +31,6 @@ public class RegistrateAction extends AbstractAction{
         if(userService.isExistByEmailPas(email,password)){
             req.getRequestDispatcher("/view/login.jsp").forward(req,res);
         } else if(name != null ){
-            System.out.println("------------------");
             userService.insertNew(new User(name,email,phone,password,0,street,houseFlat));
             req.getRequestDispatcher("/view/login.jsp").forward(req,res);
         }

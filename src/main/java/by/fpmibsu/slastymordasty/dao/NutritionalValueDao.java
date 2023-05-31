@@ -1,6 +1,6 @@
 package by.fpmibsu.slastymordasty.dao;
 
-import by.fpmibsu.slastymordasty.dao.pool.DBCPDataSource;
+import by.fpmibsu.slastymordasty.dao.pool.ConnectionPool;
 import by.fpmibsu.slastymordasty.entity.NutritionalValue;
 
 import java.sql.Connection;
@@ -17,11 +17,12 @@ public class NutritionalValueDao {
     public static final String GET_ALL = "SELECT * FROM nutritionalvalue";
     public static final String GET_BY_ID = "SELECT * FROM nutritionalvalue WHERE idNutritionalValue =?";
 
-    public NutritionalValueDao() throws SQLException {
-        connection = DBCPDataSource.getConnection();
+    public NutritionalValueDao() throws SQLException, InterruptedException {
+
     }
 
-    public List<NutritionalValue> getAll(){
+    public List<NutritionalValue> getAll() throws InterruptedException {
+        connection = ConnectionPool.getConnection();
         List<NutritionalValue> list = new ArrayList<>();
         try{
 
@@ -40,10 +41,13 @@ public class NutritionalValueDao {
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
+
+        ConnectionPool.closeConnection(connection);
         return list;
     }
 
-    public NutritionalValue getById(long id){
+    public NutritionalValue getById(long id) throws InterruptedException {
+        connection = ConnectionPool.getConnection();
         NutritionalValue nutritionalValue = new NutritionalValue();
         try {
             PreparedStatement ps = connection.prepareStatement(GET_BY_ID);
@@ -62,6 +66,7 @@ public class NutritionalValueDao {
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
+        ConnectionPool.closeConnection(connection);
         return nutritionalValue;
     }
 }

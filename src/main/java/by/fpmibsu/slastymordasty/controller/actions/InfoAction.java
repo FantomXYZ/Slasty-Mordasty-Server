@@ -19,7 +19,7 @@ public class InfoAction extends AbstractAction{
     }
 
     @Override
-    public void doAction() throws IOException, SQLException, ServletException {
+    public void doAction() throws IOException, SQLException, ServletException, InterruptedException {
         CakeService cakeService = new CakeService();
         Cake cake = cakeService.getById(cakeId);
         req.setAttribute("cake",cake);

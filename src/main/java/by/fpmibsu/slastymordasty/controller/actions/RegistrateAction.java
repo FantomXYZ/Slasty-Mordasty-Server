@@ -16,7 +16,7 @@ public class RegistrateAction extends AbstractAction{
     }
 
     @Override
-    public void doAction() throws IOException, SQLException, ServletException {
+    public void doAction() throws IOException, SQLException, ServletException, InterruptedException {
         String name = req.getParameter("name");
         String email = req.getParameter("email");
         String password = req.getParameter("password");

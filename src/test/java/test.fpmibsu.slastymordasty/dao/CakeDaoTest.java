@@ -15,11 +15,11 @@ public class CakeDaoTest {
 
     private CakeDao cakeDao = new CakeDao();
 
-    public CakeDaoTest() throws SQLException {
+    public CakeDaoTest() throws SQLException, InterruptedException {
     }
 
     @Test()
-    void getByIdTest(){
+    void getByIdTest() throws InterruptedException {
         long id = 1;
         Cake expectObject = new Cake(1,new NutritionalValue(6,
                 19, 21, 1118, 267),

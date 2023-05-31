@@ -9,20 +9,20 @@ public class UserService {
 
     private UserDao userDao;
 
-    public UserService() throws SQLException {
+    public UserService() throws SQLException, InterruptedException {
         userDao = new UserDao();
     }
 
-    public User getUserByEmailPassword(String login,String password) throws SQLException {
+    public User getUserByEmailPassword(String login,String password) throws SQLException, InterruptedException {
         return  userDao.getUserByEmailPassword(login,password);
     }
 
-    public boolean isExistByEmailPas(String login,String password) throws SQLException {
+    public boolean isExistByEmailPas(String login,String password) throws SQLException, InterruptedException {
         return userDao.isExistByEmailPas(login,password);
     }
 
 
-    public void  insertNew(User user){
+    public void  insertNew(User user) throws InterruptedException {
         userDao.insertUser(user);
     }
 }

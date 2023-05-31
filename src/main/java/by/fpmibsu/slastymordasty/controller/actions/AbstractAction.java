@@ -16,7 +16,7 @@ public abstract class AbstractAction {
         this.res = res;
     }
 
-    public void doAction() throws IOException, SQLException, ServletException {
+    public void doAction() throws IOException, SQLException, ServletException, InterruptedException {
 
     }
 

@@ -1,6 +1,6 @@
 package by.fpmibsu.slastymordasty.dao;
 
-import by.fpmibsu.slastymordasty.dao.pool.DBCPDataSource;
+import by.fpmibsu.slastymordasty.dao.pool.ConnectionPool;
 import by.fpmibsu.slastymordasty.entity.User;
 
 import javax.servlet.RequestDispatcher;
@@ -24,24 +24,23 @@ public class UserDao{
 
     public static final String GET_BY_EMAIL_PASSWORD = "SELECT * FROM user WHERE email = ? AND password = ?";
 
-    public UserDao() throws SQLException {
-        connection = DBCPDataSource.getConnection();
+    public UserDao() throws SQLException, InterruptedException {
+        //connection = ConnectionPool.getConnection();
     }
 
-    public boolean isExistByEmailPas(String email,String password) throws SQLException {
+    public boolean isExistByEmailPas(String email,String password) throws SQLException, InterruptedException {
+        connection = ConnectionPool.getConnection();
         PreparedStatement ps = connection.prepareStatement(GET_BY_EMAIL_PASSWORD);
         ps.setString(1,email);
         ps.setString(2,password);
         ResultSet rs = ps.executeQuery();
 
-        if(rs.next()){
-            return true;
-        } else {
-            return false;
-        }
+        ConnectionPool.closeConnection(connection);
+        return rs.next();
     }
 
-    public User getUserByEmailPassword(String email,String password) throws SQLException {
+    public User getUserByEmailPassword(String email,String password) throws SQLException, InterruptedException {
+        connection = ConnectionPool.getConnection();
         PreparedStatement ps = connection.prepareStatement(GET_BY_EMAIL_PASSWORD);
         ps.setString(1,email);
         ps.setString(2,password);
@@ -60,10 +59,12 @@ public class UserDao{
             user.setNumHouseFlat(rs.getString("NUMHOUSEFLAT"));
         }
 
+        ConnectionPool.closeConnection(connection);
         return user;
     }
 
-    public List<User> getAllUsers(){
+    public List<User> getAllUsers() throws InterruptedException {
+        connection = ConnectionPool.getConnection();
         List<User> list = new ArrayList<>();
 
 
@@ -89,10 +90,12 @@ public class UserDao{
             throw new RuntimeException(e);
         }
 
+        ConnectionPool.closeConnection(connection);
         return list;
     }
 
-    public void insertUser(User user){
+    public void insertUser(User user) throws InterruptedException {
+        connection = ConnectionPool.getConnection();
         try {
             PreparedStatement ps = connection.prepareStatement(INSERT_NEW);
 
@@ -108,10 +111,11 @@ public class UserDao{
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
-
+        ConnectionPool.closeConnection(connection);
     }
 
-    public void deleteUserById(long id){
+    public void deleteUserById(long id) throws InterruptedException {
+        connection = ConnectionPool.getConnection();
         try {
             PreparedStatement ps = connection.prepareStatement(DELETE_ID);
             ps.setLong(1, id);
@@ -119,9 +123,11 @@ public class UserDao{
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
+        ConnectionPool.closeConnection(connection);
     }
 
-    public void updateUserEmail(long id, String email){
+    public void updateUserEmail(long id, String email) throws InterruptedException {
+        connection = ConnectionPool.getConnection();
         try {
             PreparedStatement ps = connection.prepareStatement(UPDATE_EMAIL);
             ps.setString(1, email);
@@ -130,9 +136,11 @@ public class UserDao{
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
+        ConnectionPool.closeConnection(connection);
     }
 
-    public void updateUserPhone(long id,String phone){
+    public void updateUserPhone(long id,String phone) throws InterruptedException {
+        connection = ConnectionPool.getConnection();
         try {
             PreparedStatement ps = connection.prepareStatement(UPDATE_PHONE);
             ps.setString(1, phone);
@@ -141,9 +149,11 @@ public class UserDao{
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
+        ConnectionPool.closeConnection(connection);
     }
 
-    public void updateUserPassword(long id,String password){
+    public void updateUserPassword(long id,String password) throws InterruptedException {
+        connection = ConnectionPool.getConnection();
         try {
             PreparedStatement ps = connection.prepareStatement(UPDATE_PASSWORD);
             ps.setString(1, password);
@@ -152,9 +162,11 @@ public class UserDao{
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
+        ConnectionPool.closeConnection(connection);
     }
 
-    public void updateUserAddress(long id,String addressStreet, String numHouseFlat){
+    public void updateUserAddress(long id,String addressStreet, String numHouseFlat) throws InterruptedException {
+        connection = ConnectionPool.getConnection();
         try {
             PreparedStatement ps = connection.prepareStatement(UPDATE_ADDRESSSTREET);
             ps.setString(1, addressStreet);
@@ -169,6 +181,7 @@ public class UserDao{
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
+        ConnectionPool.closeConnection(connection);
     }
 
 

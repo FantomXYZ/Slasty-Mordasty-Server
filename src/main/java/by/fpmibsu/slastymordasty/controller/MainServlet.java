@@ -19,6 +19,8 @@ public class MainServlet extends HttpServlet {
             action.doAction();
         } catch (SQLException e) {
             throw new RuntimeException(e);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
         }
 
 
@@ -30,6 +32,8 @@ public class MainServlet extends HttpServlet {
         try {
             action.doAction();
         } catch (SQLException e) {
+            throw new RuntimeException(e);
+        } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
     }

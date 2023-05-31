@@ -1,7 +1,8 @@
 <%@ page import="by.fpmibsu.slastymordasty.service.CakeService" %>
 <%@ page import="java.util.List" %>
 <%@ page import="by.fpmibsu.slastymordasty.entity.Cake" %>
-<%@ page import="java.util.ArrayList" %><%--
+<%@ page import="java.util.ArrayList" %>
+<%@ page import="java.sql.SQLException" %><%--
   Created by IntelliJ IDEA.
   User: Fantom_X_
   Date: 27.05.2023

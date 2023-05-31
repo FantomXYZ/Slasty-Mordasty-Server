@@ -1,6 +1,6 @@
 package by.fpmibsu.slastymordasty.dao;
 
-import by.fpmibsu.slastymordasty.dao.pool.DBCPDataSource;
+import by.fpmibsu.slastymordasty.dao.pool.ConnectionPool;
 import by.fpmibsu.slastymordasty.entity.Image;
 import by.fpmibsu.slastymordasty.entity.User;
 
@@ -21,12 +21,13 @@ public class ImageDao {
 
     public static final String UPDATE_PATH = "UPDATE image SET PATH =? WHERE idImage =?";
 
-    public ImageDao() throws SQLException {
-        connection = DBCPDataSource.getConnection();
+    public ImageDao() throws SQLException, InterruptedException {
+
     }
 
 
-    public List<Image> getAllImages(){
+    public List<Image> getAllImages() throws InterruptedException {
+        connection = ConnectionPool.getConnection();
         List<Image> list = new ArrayList<>();
 
 
@@ -46,10 +47,12 @@ public class ImageDao {
             throw new RuntimeException(e);
         }
 
+        ConnectionPool.closeConnection(connection);
         return list;
     }
 
-    public Image getImageById(long id){
+    public Image getImageById(long id) throws InterruptedException {
+        connection = ConnectionPool.getConnection();
         Image image = new Image();
 
         try {
@@ -65,11 +68,13 @@ public class ImageDao {
             throw new RuntimeException(e);
         }
 
+        ConnectionPool.closeConnection(connection);
         return image;
     }
 
 
-    public void insertImage(Image image){
+    public void insertImage(Image image) throws InterruptedException {
+        connection = ConnectionPool.getConnection();
         try {
             PreparedStatement ps = connection.prepareStatement(INSERT_NEW);
             ps.setString(1, image.getPath());
@@ -77,9 +82,11 @@ public class ImageDao {
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
+        ConnectionPool.closeConnection(connection);
     }
 
-    public void updateImage(Image image){
+    public void updateImage(Image image) throws InterruptedException {
+        connection = ConnectionPool.getConnection();
         try {
             PreparedStatement ps = connection.prepareStatement(UPDATE_PATH);
             ps.setString(1, image.getPath());
@@ -88,6 +95,7 @@ public class ImageDao {
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
+        ConnectionPool.closeConnection(connection);
     }
 
 

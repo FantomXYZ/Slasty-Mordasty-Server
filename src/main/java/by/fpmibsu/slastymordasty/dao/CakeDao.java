@@ -1,6 +1,6 @@
 package by.fpmibsu.slastymordasty.dao;
 
-import by.fpmibsu.slastymordasty.dao.pool.DBCPDataSource;
+import by.fpmibsu.slastymordasty.dao.pool.ConnectionPool;
 import by.fpmibsu.slastymordasty.entity.Cake;
 import by.fpmibsu.slastymordasty.entity.Item;
 import by.fpmibsu.slastymordasty.entity.NutritionalValue;
@@ -20,12 +20,13 @@ public class CakeDao {
 
     //public static final String INSERT_NEW = "INSERT INTO image (idNutritionalValue,idImage,title,description,price) VALUES (?,?,?,?,?)";
 
-    public CakeDao() throws SQLException {
-        connection = DBCPDataSource.getConnection();
-    }
 
-    public List<Cake> getAll() {
+
+
+
+    public List<Cake> getAll() throws InterruptedException {
         List<Cake> list = new ArrayList<>();
+        connection = ConnectionPool.getConnection();
 
         try {
             PreparedStatement ps = connection.prepareStatement(GET_ALL);
@@ -49,20 +50,24 @@ public class CakeDao {
 
                 cake.setPrice(resultSet.getDouble("price"));
 
+                System.out.println(cake.getId());
                 list.add(cake);
             }
 
 
         } catch (SQLException e) {
             throw new RuntimeException(e);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
         }
-
+        ConnectionPool.closeConnection(connection);
         return list;
+
     }
 
-    public Cake getById(long id){
+    public Cake getById(long id) throws InterruptedException {
         Cake cake = new Cake();
-
+        connection = ConnectionPool.getConnection();
 
         try {
             PreparedStatement ps = connection.prepareStatement(GET_BY_ID);
@@ -90,9 +95,11 @@ public class CakeDao {
 
         } catch (SQLException e) {
             throw new RuntimeException(e);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
         }
 
-
+        ConnectionPool.closeConnection(connection);
         return cake;
     }
 }

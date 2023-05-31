@@ -10,16 +10,16 @@ public class CakeService {
 
     private CakeDao cakeDao;
 
-    public CakeService() throws SQLException {
+    public CakeService() throws SQLException, InterruptedException {
         cakeDao = new CakeDao();
     }
 
 
-    public List<Cake> getAll(){
+    public List<Cake> getAll() throws InterruptedException {
         return cakeDao.getAll();
     }
 
-    public Cake getById(long id){
+    public Cake getById(long id) throws InterruptedException {
         return cakeDao.getById(id);
     }
 }

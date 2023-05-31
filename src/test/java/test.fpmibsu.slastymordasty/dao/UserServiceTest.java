@@ -11,11 +11,11 @@ import static org.testng.AssertJUnit.assertEquals;
 public class UserServiceTest {
     UserService userService = new UserService();
 
-    public UserServiceTest() throws SQLException {
+    public UserServiceTest() throws SQLException, InterruptedException {
     }
 
     @Test()
-    void getByEmailPassword() throws SQLException {
+    void getByEmailPassword() throws SQLException, InterruptedException {
         long id = 1;
         User user = new User(1,"Анатолий","anatolyM@gmail.com","+375296772344","tolik",0,"Корженевского","23 12");
         assertEquals(userService.getUserByEmailPassword("anatolyM@gmail.com","tolik"),user);

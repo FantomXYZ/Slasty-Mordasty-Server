@@ -5,12 +5,12 @@ import java.util.Date;
 import java.util.List;
 
 public class Order extends Entity{
-    long userId;
-    List<Item> basket = new ArrayList<Item>();
-    double cost;
-    String comment;
-    Date orderDate;
-    Date deliveryDate;
+    private long userId;
+    private List<Item> basket = new ArrayList<Item>();
+    private double cost;
+    private String comment;
+    private Date orderDate;
+    private Date deliveryDate;
 
     public Order(long userId, Item item, double cost, String comment, Date orderDate, Date deliveryDate) {
         this.userId = userId;
@@ -42,6 +42,10 @@ public class Order extends Entity{
 
     public List<Item> getBasket() {
         return basket;
+    }
+
+    public void setBasket(List<Item> list) {
+        this.basket = list;
     }
 
     public void setItem(Item item) {

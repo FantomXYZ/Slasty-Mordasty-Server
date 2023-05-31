@@ -12,18 +12,29 @@ public class CakeService {
     private static final Logger log = Logger.getLogger(CakeService.class);
     private CakeDao cakeDao;
 
-    public CakeService() throws SQLException, InterruptedException {
+    public CakeService(){
         cakeDao = new CakeDao();
         log.info("Call constructor");
     }
 
 
-    public List<Cake> getAll() throws InterruptedException {
-
-        return cakeDao.getAll();
+    public List<Cake> getAll(){
+        log.info("method getAll");
+        try {
+            return cakeDao.getAll();
+        } catch (InterruptedException e) {
+            log.info(e.getMessage());
+        }
+        return null;
     }
 
-    public Cake getById(long id) throws InterruptedException {
-        return cakeDao.getById(id);
+    public Cake getById(long id){
+        log.info("method getById");
+        try {
+            return cakeDao.getById(id);
+        } catch (InterruptedException e) {
+            log.info(e.getMessage());
+        }
+        return null;
     }
 }

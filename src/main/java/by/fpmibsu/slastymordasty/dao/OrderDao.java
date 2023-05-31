@@ -1,6 +1,8 @@
 package by.fpmibsu.slastymordasty.dao;
 
 import by.fpmibsu.slastymordasty.dao.pool.ConnectionPool;
+import by.fpmibsu.slastymordasty.entity.Cake;
+import by.fpmibsu.slastymordasty.entity.Item;
 import by.fpmibsu.slastymordasty.entity.Order;
 import by.fpmibsu.slastymordasty.entity.User;
 
@@ -31,22 +33,35 @@ public class OrderDao {
         }
         ConnectionPool.closeConnection(connection);
     }
-    public List<Order> getAllOrdersOfUser() throws InterruptedException {
+    public List<Order> getAllOrdersOfUser(long id) throws InterruptedException {
         connection = ConnectionPool.getConnection();
         List<Order> list = new ArrayList<>();
 
 
         try {
             PreparedStatement ps = connection.prepareStatement(GET_ALL_ORDERS_BY_USERID);
+            ps.setLong(1,id);
             ResultSet rs = ps.executeQuery();
+
+            OrderProdDao orderProdDao = new OrderProdDao();
 
             while(rs.next()){
                 Order order = new Order();
-                order.setId(rs.getInt("ORDERID"));
-                order.setCost(rs.getDouble("cost"));
+                order.setId(rs.getInt("OrderId"));
+
+                order.setBasket(orderProdDao.getAllOrdersById(order.getId()));
+
+                double coast = 0;
+
+                for(Item item:order.getBasket()){
+                    coast += ((Cake)item).getPrice() * ((Cake)item).getQuantity();
+                }
+
+                order.setCost(coast);
+
                 order.setComment(rs.getString("comment"));
-                order.setOrderDate(rs.getDate("orderDate"));
-                order.setDeliveryDate(rs.getDate("deliveryDate"));
+                //order.setOrderDate(rs.getDate("orderDate"));
+                //order.setDeliveryDate(rs.getDate("deliveryDate"));
                 list.add(order);
             }
 

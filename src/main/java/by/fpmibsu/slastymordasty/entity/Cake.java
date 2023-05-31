@@ -8,6 +8,7 @@ public class Cake extends Entity implements Item{
     private String title;
     private String description;
     private double price;
+    private int quantity = 0;
 
     public NutritionalValue getNutritionalValue100g() {
         return nutritionalValue100g;
@@ -16,6 +17,15 @@ public class Cake extends Entity implements Item{
     public Cake(){
 
     }
+
+    public void setQuantity(int quantity){
+        this.quantity = quantity;
+    }
+
+    public int getQuantity(){
+        return quantity;
+    }
+
     public Cake(long id,NutritionalValue nutritionalValue100g, Image image, String title, String description, double price) {
         this.id = id;
         this.nutritionalValue100g = nutritionalValue100g;

@@ -55,9 +55,7 @@ public class CakeDao {
             }
 
 
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
-        } catch (InterruptedException e) {
+        } catch (SQLException | InterruptedException e) {
             throw new RuntimeException(e);
         }
         ConnectionPool.closeConnection(connection);

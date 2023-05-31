@@ -1,8 +1,10 @@
 package by.fpmibsu.slastymordasty.dao;
 
 import by.fpmibsu.slastymordasty.dao.pool.ConnectionPool;
+import by.fpmibsu.slastymordasty.entity.Item;
 import by.fpmibsu.slastymordasty.entity.Order;
 import by.fpmibsu.slastymordasty.entity.Cake;
+import by.fpmibsu.slastymordasty.service.CakeService;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -21,23 +23,27 @@ public class OrderProdDao {
 
     public OrderProdDao(){}
 
-    public List<Order> getAllOrders() throws SQLException, InterruptedException{
+    public List<Item> getAllOrdersById(long id) throws SQLException, InterruptedException{
         connection = ConnectionPool.getConnection();
-        List<Order> list = new ArrayList<>();
+        List<Item> list = new ArrayList<>();
+        CakeService cakeService = new CakeService();
 
 
         try {
             PreparedStatement ps = connection.prepareStatement(GET_ALL_BY_ID);
+            ps.setLong(1,id);
             ResultSet rs = ps.executeQuery();
 
-            while(rs.next()){
-                Order order = new Order();
-                Cake cake = new Cake();
-                order.setId(rs.getInt("ORDERID"));
-                cake.setId(rs.getLong("idDessert"));
-                //?  cake.quantity(rs.getString("EMAIL"));
-                list.add(order);
+            while (rs.next()){
+
+                Cake cake = cakeService.getById(rs.getLong("idDessert"));
+                cake.setQuantity(rs.getInt("quantity"));
+                list.add(cake);
+
             }
+
+
+
 
 
         } catch (SQLException e) {

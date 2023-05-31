@@ -2,6 +2,8 @@ package by.fpmibsu.slastymordasty.controller.filters;
 
 import by.fpmibsu.slastymordasty.controller.actions.*;
 import by.fpmibsu.slastymordasty.entity.Cake;
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
 
 import javax.servlet.*;
 import javax.servlet.http.HttpServletRequest;
@@ -12,6 +14,7 @@ import java.io.IOException;
 public class ActionFilter implements Filter {
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
+
         Filter.super.init(filterConfig);
     }
 
@@ -33,12 +36,17 @@ public class ActionFilter implements Filter {
         System.out.println(url);
 
 
+
         if(url.endsWith("jpg")){
             ImageAction imageAction = new ImageAction(req,resp);
             req.setAttribute("action",imageAction);
         } else if(url.endsWith("info.jsp")){
             InfoAction infoAction = new InfoAction(req,resp,Long.parseLong(url.substring("/Slasty-Mordasty/".length(), url.length() - "info.jsp".length())));
             req.setAttribute("action",infoAction);
+        } else if(url.startsWith("/Slasty-Mordasty/api/")){
+            ApiAction apiAction = new ApiAction(req,resp);
+            req.setAttribute("action",apiAction);
+            req.setAttribute("apiPath",url.substring(url.indexOf("/Slasty-Mordasty/api/") + "/Slasty-Mordasty/api/".length()));
         }
         else {
             switch (url){

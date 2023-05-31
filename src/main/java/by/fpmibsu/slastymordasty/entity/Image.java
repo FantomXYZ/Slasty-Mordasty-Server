@@ -1,5 +1,7 @@
 package by.fpmibsu.slastymordasty.entity;
 
+import java.util.Objects;
+
 public class Image extends Entity{
 
     String path;
@@ -12,8 +14,9 @@ public class Image extends Entity{
         this.path = path;
     }
 
-    public Image(String path) {
+    public Image(long id,String path) {
         this.path = path;
+        this.id = id;
     }
 
     @Override
@@ -21,9 +24,10 @@ public class Image extends Entity{
         if (this == o) return true;
         if (!(o instanceof Image)) return false;
 
-        Image image = (Image) o;
+        if (!Objects.equals(this.path, ((Image) o).path)) return false;
+        if(this.id != ((Image) o).getId()) return false;
 
-        return getPath() != null ? getPath().equals(image.getPath()) : image.getPath() == null;
+        return true;
     }
 
     @Override
@@ -33,5 +37,13 @@ public class Image extends Entity{
 
     public Image(){
 
+    }
+
+    @Override
+    public String toString() {
+        return "Image{" +
+                "path='" + path + '\'' +
+                ", id=" + id +
+                '}';
     }
 }

@@ -91,4 +91,16 @@ public class Cake extends Entity implements Item{
         result = 31 * result + (int) (id ^ (id >>> 32));
         return result;
     }
+
+    @Override
+    public String toString() {
+        return "Cake{" +
+                "nutritionalValue100g=" + nutritionalValue100g +
+                ", image=" + image +
+                ", title='" + title + '\'' +
+                ", description='" + description + '\'' +
+                ", price=" + price +
+                ", id=" + id +
+                '}';
+    }
 }

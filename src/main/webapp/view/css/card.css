@@ -10,6 +10,14 @@
     text-transform: capitalize;
 }
 
+header{
+    display: flex;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
 
 html{
     font-size: 62.5%;
@@ -76,5 +84,18 @@ body{
 .container .products-container .product .price{
     font-size: 2rem;
     color:#444;
+}
+
+.cardButton{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: #ffffff;
+    color: #080710;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
 }
 

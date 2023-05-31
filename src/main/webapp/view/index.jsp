@@ -24,10 +24,14 @@
 
     <title>Slasty-Mordasty</title>
     <style><%@include file="css/card.css"%></style>
+    <style><%@include file="css/button.css"%></style>
 </head>
 <body>
 
     <header>
+
+
+
 
         <%
 
@@ -44,22 +48,22 @@
             if(login!=null && password!=null){
                 if(role == 1){
                     out.print("<form action=\"stat.jsp\" method=\"get\">");
-                    out.print("<input type=\"submit\" value=\"Статистика\"/>");
+                    out.print("<button class=\"fciA navItem\"><span class = \"fciSpan\">Админка</span></button>");
                     out.print("</form>");
                 } else if(role == 0){
                     out.print("<form action=\"basket.jsp\" method=\"get\">");
-                    out.print("<input type=\"submit\" value=\"Корзина\"/>");
+                    out.print("<button class=\"fciA navItem\"><span class = \"fciSpan\">Корзина</span></button>");
                     out.print("</form>");
                     out.print("<form action=\"history.jsp\" method=\"get\">");
-                    out.print("<input type=\"submit\" value=\"История заказов\"/>");
+                    out.print("<button class=\"fciA navItem\"><span class = \"fciSpan\">История заказов</span></button>");
                     out.print("</form>");
                 }
                 out.print("<form action=\"logout.jsp\" method=\"post\">");
-                out.print("<input type=\"submit\" value=\"Выйти\"/>");
+                out.print("<button class=\"fciA navItem\"><span class = \"fciSpan\">Выйти</span></button>");
                 out.print("</form>");
             } else{
                 out.print("<form action=\"login.jsp\" method=\"get\">");
-                out.print("<input type=\"submit\" value=\"Войти\"/>");
+                out.print("<button class=\"fciA navItem\"><span class = \"fciSpan\">Войти</span></button>");
                 out.print("</form>");
             }
 
@@ -91,12 +95,12 @@
 
 
                     out.print("<form action=\"" + item.getId() + "info.jsp\" method=\"get\">");
-                    out.print("<input type=\"submit\" value=\"Подробнее\"/><br/>");
+                    out.print("<button сlass=\"cardButton\">Подробнее</button>");
                     out.print("</form>");
 
                     if(role != null && role == 0){
                         out.print("<form action=\"toBasketJsp.jsp\" method=\"post\">");
-                        out.print("<input type=\"submit\" value=\"В корзину\"/><br/>");
+                        out.print("<button сlass=\"cardButton\">В корзину</button>");
                         out.print("</form>");
                     }
 

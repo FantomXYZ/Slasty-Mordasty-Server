@@ -47,12 +47,13 @@ public class NutritionalValue extends Entity {
         this.caloriesKcal = caloriesKcal;
     }
 
-    public NutritionalValue(double proteins, double fats, double carbohydrates, double caloriesKJoules, double caloriesKcal) {
+    public NutritionalValue(long id,double proteins, double fats, double carbohydrates, double caloriesKJoules, double caloriesKcal) {
         this.proteins = proteins;
         this.fats = fats;
         this.carbohydrates = carbohydrates;
         this.caloriesKJoules = caloriesKJoules;
         this.caloriesKcal = caloriesKcal;
+        this.id = id;
     }
 
     public NutritionalValue(){
@@ -71,7 +72,7 @@ public class NutritionalValue extends Entity {
         if (Double.compare(that.fats, fats) != 0) return false;
         if (Double.compare(that.carbohydrates, carbohydrates) != 0) return false;
         if (Double.compare(that.caloriesKJoules, caloriesKJoules) != 0) return false;
-        return Double.compare(that.caloriesKcal, caloriesKcal) == 0;
+        return true;
     }
 
     @Override

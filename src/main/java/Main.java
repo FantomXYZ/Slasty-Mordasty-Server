@@ -15,8 +15,8 @@ public class Main {
 
         CakeDao cakeDao = new CakeDao();
 
-        for(Item item : cakeDao.getAll()){
-            System.out.println(item);
+        for(Cake item : cakeDao.getAll()){
+            System.out.println(item.getTitle());
         }
 
     }

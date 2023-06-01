@@ -13,29 +13,48 @@ public class ImageService {
 
     private ImageDao imageDao;
 
-    public ImageService() throws SQLException, InterruptedException {
-        imageDao = new ImageDao();
-        log.info("Call constructor");
+    public ImageService()  {
+        log.warn("Call constructor");
+        try {
+            imageDao = new ImageDao();
+        } catch (SQLException | InterruptedException e) {
+            log.warn(e.getMessage());
+        }
+
     }
-    public List<Image> getAllImages() throws InterruptedException {
-        log.info("method getAllImages");
-        return imageDao.getAllImages();
+    public List<Image> getAllImages()  {
+        log.warn("method getAllImages");
+        try {
+            return imageDao.getAllImages();
+        } catch (InterruptedException e) {
+            log.warn(e.getMessage());
+        }
+        return null;
     }
 
-    public Image getImageById(long id) throws InterruptedException {
-        log.info("method getImageById");
-        return imageDao.getImageById(id);
+    public Image getImageById(long id)  {
+        log.warn("method getImageById");
+        try {
+            return imageDao.getImageById(id);
+        } catch (InterruptedException e) {
+            log.warn(e.getMessage());
+        }
+        return null;
     }
-    public void insertImage(Image image) throws InterruptedException {
-        log.info("method insertImage");
-        imageDao.insertImage(image);
+    public void insertImage(Image image) {
+        log.warn("method insertImage");
+        try {
+            imageDao.insertImage(image);
+        } catch (InterruptedException e) {
+            log.warn(e.getMessage());
+        }
     }
     public void updateImage(Image image){
-        log.info("method updateImage");
+        log.warn("method updateImage");
         try {
             imageDao.updateImage(image);
         } catch (InterruptedException e) {
-            log.info(e.getMessage());
+            log.warn(e.getMessage());
         }
     }
 }

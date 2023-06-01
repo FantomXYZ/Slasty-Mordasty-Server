@@ -14,26 +14,26 @@ public class CakeService {
 
     public CakeService(){
         cakeDao = new CakeDao();
-        log.info("Call constructor");
+        log.warn("Call constructor");
     }
 
 
     public List<Cake> getAll(){
-        log.info("method getAll");
+        log.warn("method getAll");
         try {
             return cakeDao.getAll();
         } catch (InterruptedException e) {
-            log.info(e.getMessage());
+            log.warn(e.getMessage());
         }
         return null;
     }
 
     public Cake getById(long id){
-        log.info("method getById");
+        log.warn("method getById");
         try {
             return cakeDao.getById(id);
         } catch (InterruptedException e) {
-            log.info(e.getMessage());
+            log.warn(e.getMessage());
         }
         return null;
     }

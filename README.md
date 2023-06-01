@@ -5,8 +5,7 @@ This is a group training project to create a candy store.
 Use-Case:
 
 
-![Uploading telegram-cloud-document-2-5458460836836158697.jpg…]()
-
+![Снимок экрана 2023-06-01 115444](https://github.com/FantomXYZ/Slasty-Mordasty-Server/assets/108814232/46803aaf-b037-414a-84bb-36fc9368d8ac)
 Сценарии:
 
 

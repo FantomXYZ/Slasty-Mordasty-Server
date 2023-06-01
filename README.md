@@ -3,6 +3,8 @@ This is a group training project to create a candy store.
 Клиент серверное web-приложение, с возможностью сбора корзины заказов, создания личного кабинета.
 
 Use-Case:
+
+
 ![telegram-cloud-photo-size-2-5458460837292396777-x](https://github.com/FantomXYZ/Slasty-Mordasty-Server/assets/108814232/3b40668d-abbc-4425-972a-62f8aa1b3985)
 
 

@@ -14,7 +14,7 @@ public class ImageService {
     private ImageDao imageDao;
 
     public ImageService()  {
-        log.warn("Call constructor");
+        log.info("Call constructor");
         try {
             imageDao = new ImageDao();
         } catch (SQLException | InterruptedException e) {

@@ -13,7 +13,7 @@ public class OrderService {
     private OrderDao orderDao;
 
     public OrderService()  {
-        log.warn("Call constructor");
+        log.info("Call constructor");
        // try {
            orderDao = new OrderDao();
       //  }
@@ -23,7 +23,7 @@ public class OrderService {
 
     }
     public void deleteOrderById(long id)  {
-        log.warn("method deleteOrderById");
+        log.info("method deleteOrderById");
         try {
             orderDao.deleteOrderById(id);
         } catch (InterruptedException e) {
@@ -32,7 +32,7 @@ public class OrderService {
     }
 
     public List<Order> getAllOrdersOfUser(long id)  {
-        log.warn("method getAllOrdersOfUser");
+        log.info("method getAllOrdersOfUser");
         try {
             return orderDao.getAllOrdersOfUser(id);
         } catch (InterruptedException e) {
@@ -41,7 +41,7 @@ public class OrderService {
         return null;
     }
     public void insertOrder(Order order)  {
-        log.warn("method insertOrder");
+        log.info("method insertOrder");
         try {
             orderDao.insertOrder(order);
         } catch (InterruptedException e) {

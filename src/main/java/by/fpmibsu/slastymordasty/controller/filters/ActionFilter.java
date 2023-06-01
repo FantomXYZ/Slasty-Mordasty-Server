@@ -41,9 +41,12 @@ public class ActionFilter implements Filter {
         if(url.endsWith("jpg")){
             ImageAction imageAction = new ImageAction(req,resp);
             req.setAttribute("action",imageAction);
-        } else if(url.endsWith("info.jsp")){
-            InfoAction infoAction = new InfoAction(req,resp,Long.parseLong(url.substring("/Slasty-Mordasty/".length(), url.length() - "info.jsp".length())));
-            req.setAttribute("action",infoAction);
+        } else if(url.endsWith("info.jsp")) {
+            InfoAction infoAction = new InfoAction(req, resp, Long.parseLong(url.substring("/Slasty-Mordasty/".length(), url.length() - "info.jsp".length())));
+            req.setAttribute("action", infoAction);
+        } else if(url.endsWith("toBasketJsp.jsp")){
+                ToBasketAction toBasketActionction = new ToBasketAction(req,resp,Long.parseLong(url.substring("/Slasty-Mordasty/".length(), url.length() - "toBasketJsp.jsp".length())));
+                req.setAttribute("action",toBasketActionction);
         } else if(url.startsWith("/Slasty-Mordasty/api/")){
             ApiAction apiAction = new ApiAction(req,resp);
             req.setAttribute("action",apiAction);
@@ -51,6 +54,10 @@ public class ActionFilter implements Filter {
         }
         else {
             switch (url){
+                case "/Slasty-Mordasty/basket.jsp":
+                    ToBasketPageAction toBasketPageAction = new ToBasketPageAction(req,resp);
+                    req.setAttribute("action",toBasketPageAction);
+                    break;
                 case "/Slasty-Mordasty/stat.jsp":
                     AdminAction adminAction = new AdminAction(req,resp);
                     req.setAttribute("action",adminAction);

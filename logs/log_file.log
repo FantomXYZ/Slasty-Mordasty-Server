@@ -778,3 +778,1600 @@
 2023-06-01 00:48:45 INFO  ImageAction:26 - method doAction
 2023-06-01 00:48:45 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
 2023-06-01 00:48:45 INFO  ImageAction:26 - method doAction
+2023-06-01 08:22:02 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/
+2023-06-01 08:22:02 INFO  StartAction:14 - Call constructor
+2023-06-01 08:22:02 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.StartAction
+2023-06-01 08:22:02 WARN  StartAction:20 - method doAction
+2023-06-01 08:22:03 INFO  CakeService:17 - Call constructor
+2023-06-01 08:22:03 WARN  CakeService:22 - method getAll
+2023-06-01 08:22:04 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/1.jpg
+2023-06-01 08:22:04 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/5.jpg
+2023-06-01 08:22:04 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/3.jpg
+2023-06-01 08:22:04 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/4.jpg
+2023-06-01 08:22:04 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/2.jpg
+2023-06-01 08:22:04 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/6.jpg
+2023-06-01 08:22:04 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:22:04 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:22:04 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:22:04 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:22:04 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:22:04 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:22:04 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:22:04 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:22:04 INFO  ImageAction:26 - method doAction
+2023-06-01 08:22:04 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:22:04 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:22:04 INFO  ImageAction:26 - method doAction
+2023-06-01 08:22:04 INFO  ImageAction:26 - method doAction
+2023-06-01 08:22:04 INFO  ImageAction:26 - method doAction
+2023-06-01 08:22:04 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:22:04 INFO  ImageAction:26 - method doAction
+2023-06-01 08:22:04 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:22:04 INFO  ImageAction:26 - method doAction
+2023-06-01 08:22:04 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/7.jpg
+2023-06-01 08:22:04 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:22:04 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/8.jpg
+2023-06-01 08:22:04 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:22:04 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:22:04 INFO  ImageAction:26 - method doAction
+2023-06-01 08:22:04 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:22:04 INFO  ImageAction:26 - method doAction
+2023-06-01 08:22:04 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/11.jpg
+2023-06-01 08:22:04 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/9.jpg
+2023-06-01 08:22:04 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:22:04 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/10.jpg
+2023-06-01 08:22:04 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:22:04 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:22:04 INFO  ImageAction:26 - method doAction
+2023-06-01 08:22:04 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:22:04 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:22:04 INFO  ImageAction:26 - method doAction
+2023-06-01 08:22:04 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:22:04 INFO  ImageAction:26 - method doAction
+2023-06-01 08:22:07 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/login.jsp
+2023-06-01 08:22:07 INFO  ToLoginPageAction:15 - Call constructor
+2023-06-01 08:22:07 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ToLoginPageAction
+2023-06-01 08:22:07 INFO  ToLoginPageAction:20 - method doAction
+2023-06-01 08:22:11 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/login.jsp
+2023-06-01 08:22:11 INFO  LoginAction:18 - Call constructor
+2023-06-01 08:22:11 INFO  MainServlet:38 - Process class by.fpmibsu.slastymordasty.controller.actions.LoginAction
+2023-06-01 08:22:11 INFO  LoginAction:23 - method doAction
+2023-06-01 08:22:11 INFO  UserService:17 - Call constructor
+2023-06-01 08:22:11 INFO  UserService:36 - method isExistByEmailPas
+2023-06-01 08:22:11 INFO  UserService:26 - method getUserByEmailPassword
+2023-06-01 08:22:11 INFO  CakeService:17 - Call constructor
+2023-06-01 08:22:11 WARN  CakeService:22 - method getAll
+2023-06-01 08:22:11 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/1.jpg
+2023-06-01 08:22:11 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:22:11 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:22:11 INFO  ImageAction:26 - method doAction
+2023-06-01 08:22:11 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/2.jpg
+2023-06-01 08:22:11 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/4.jpg
+2023-06-01 08:22:11 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:22:11 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/3.jpg
+2023-06-01 08:22:11 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:22:11 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/5.jpg
+2023-06-01 08:22:11 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/6.jpg
+2023-06-01 08:22:11 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:22:11 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:22:11 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:22:11 INFO  ImageAction:26 - method doAction
+2023-06-01 08:22:11 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:22:11 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:22:11 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:22:11 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:22:11 INFO  ImageAction:26 - method doAction
+2023-06-01 08:22:11 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:22:11 INFO  ImageAction:26 - method doAction
+2023-06-01 08:22:11 INFO  ImageAction:26 - method doAction
+2023-06-01 08:22:11 INFO  ImageAction:26 - method doAction
+2023-06-01 08:22:11 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/8.jpg
+2023-06-01 08:22:11 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/9.jpg
+2023-06-01 08:22:11 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/7.jpg
+2023-06-01 08:22:11 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:22:11 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:22:11 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:22:11 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:22:11 INFO  ImageAction:26 - method doAction
+2023-06-01 08:22:11 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:22:11 INFO  ImageAction:26 - method doAction
+2023-06-01 08:22:11 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/11.jpg
+2023-06-01 08:22:11 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/10.jpg
+2023-06-01 08:22:11 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:22:11 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:22:11 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:22:11 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:22:11 INFO  ImageAction:26 - method doAction
+2023-06-01 08:22:11 INFO  ImageAction:26 - method doAction
+2023-06-01 08:22:11 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:22:11 INFO  ImageAction:26 - method doAction
+2023-06-01 08:22:42 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/login.jsp
+2023-06-01 08:22:42 INFO  LoginAction:18 - Call constructor
+2023-06-01 08:22:42 INFO  MainServlet:38 - Process class by.fpmibsu.slastymordasty.controller.actions.LoginAction
+2023-06-01 08:22:42 INFO  LoginAction:23 - method doAction
+2023-06-01 08:22:42 INFO  UserService:17 - Call constructor
+2023-06-01 08:22:42 INFO  UserService:36 - method isExistByEmailPas
+2023-06-01 08:22:42 INFO  UserService:26 - method getUserByEmailPassword
+2023-06-01 08:22:42 INFO  CakeService:17 - Call constructor
+2023-06-01 08:22:42 WARN  CakeService:22 - method getAll
+2023-06-01 08:22:42 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/1.jpg
+2023-06-01 08:22:42 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/2.jpg
+2023-06-01 08:22:42 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:22:42 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:22:42 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:22:42 INFO  ImageAction:26 - method doAction
+2023-06-01 08:22:42 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:22:42 INFO  ImageAction:26 - method doAction
+2023-06-01 08:22:42 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/6.jpg
+2023-06-01 08:22:42 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/5.jpg
+2023-06-01 08:22:42 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/3.jpg
+2023-06-01 08:22:42 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:22:42 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/4.jpg
+2023-06-01 08:22:42 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:22:42 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/7.jpg
+2023-06-01 08:22:42 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:22:42 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:22:42 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:22:42 INFO  ImageAction:26 - method doAction
+2023-06-01 08:22:42 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:22:42 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:22:42 INFO  ImageAction:26 - method doAction
+2023-06-01 08:22:42 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:22:42 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:22:42 INFO  ImageAction:26 - method doAction
+2023-06-01 08:22:42 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:22:42 INFO  ImageAction:26 - method doAction
+2023-06-01 08:22:42 INFO  ImageAction:26 - method doAction
+2023-06-01 08:22:42 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/8.jpg
+2023-06-01 08:22:42 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:22:42 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:22:42 INFO  ImageAction:26 - method doAction
+2023-06-01 08:22:42 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/9.jpg
+2023-06-01 08:22:42 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:22:42 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/10.jpg
+2023-06-01 08:22:42 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:22:42 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:22:42 INFO  ImageAction:26 - method doAction
+2023-06-01 08:22:42 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:22:42 INFO  ImageAction:26 - method doAction
+2023-06-01 08:22:42 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/11.jpg
+2023-06-01 08:22:42 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:22:42 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:22:42 INFO  ImageAction:26 - method doAction
+2023-06-01 08:22:44 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/1toBasketJsp.jsp
+2023-06-01 08:22:44 INFO  MainServlet:38 - Process class by.fpmibsu.slastymordasty.controller.actions.NotFoundAction
+2023-06-01 08:36:28 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/
+2023-06-01 08:36:28 INFO  StartAction:14 - Call constructor
+2023-06-01 08:36:28 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.StartAction
+2023-06-01 08:36:28 WARN  StartAction:20 - method doAction
+2023-06-01 08:36:28 INFO  CakeService:17 - Call constructor
+2023-06-01 08:36:28 WARN  CakeService:22 - method getAll
+2023-06-01 08:36:29 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/1.jpg
+2023-06-01 08:36:29 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/2.jpg
+2023-06-01 08:36:29 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:29 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:29 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:29 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:29 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:29 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:29 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/6.jpg
+2023-06-01 08:36:29 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/3.jpg
+2023-06-01 08:36:29 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:29 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/5.jpg
+2023-06-01 08:36:29 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:29 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/4.jpg
+2023-06-01 08:36:29 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:29 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:29 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:29 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:29 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:29 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:29 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:29 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:29 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:29 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:29 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/8.jpg
+2023-06-01 08:36:29 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/7.jpg
+2023-06-01 08:36:29 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:29 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:29 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:29 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:29 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:29 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:29 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/9.jpg
+2023-06-01 08:36:29 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:29 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:29 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:29 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/10.jpg
+2023-06-01 08:36:29 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:29 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/11.jpg
+2023-06-01 08:36:29 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:29 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:29 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:29 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:29 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:35 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/1toBasketJsp.jsp
+2023-06-01 08:36:35 INFO  MainServlet:38 - Process class by.fpmibsu.slastymordasty.controller.actions.ToBasketAction
+2023-06-01 08:36:35 INFO  CakeService:17 - Call constructor
+2023-06-01 08:36:35 WARN  CakeService:32 - method getById
+2023-06-01 08:36:35 INFO  CakeService:17 - Call constructor
+2023-06-01 08:36:35 WARN  CakeService:22 - method getAll
+2023-06-01 08:36:35 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/1.jpg
+2023-06-01 08:36:35 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:35 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:35 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:35 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/3.jpg
+2023-06-01 08:36:35 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/6.jpg
+2023-06-01 08:36:35 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:35 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/2.jpg
+2023-06-01 08:36:35 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:35 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:35 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/4.jpg
+2023-06-01 08:36:35 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:35 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/5.jpg
+2023-06-01 08:36:35 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:35 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:35 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:35 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:35 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:35 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:35 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:35 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:35 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:35 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:35 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:35 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/7.jpg
+2023-06-01 08:36:35 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:35 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:35 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:35 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/8.jpg
+2023-06-01 08:36:35 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:35 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:35 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:35 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/9.jpg
+2023-06-01 08:36:35 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:35 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:35 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:35 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/10.jpg
+2023-06-01 08:36:35 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/11.jpg
+2023-06-01 08:36:35 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:35 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:35 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:35 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:35 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:35 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:37 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/2toBasketJsp.jsp
+2023-06-01 08:36:37 INFO  MainServlet:38 - Process class by.fpmibsu.slastymordasty.controller.actions.ToBasketAction
+2023-06-01 08:36:37 INFO  CakeService:17 - Call constructor
+2023-06-01 08:36:37 WARN  CakeService:32 - method getById
+2023-06-01 08:36:37 INFO  CakeService:17 - Call constructor
+2023-06-01 08:36:37 WARN  CakeService:22 - method getAll
+2023-06-01 08:36:37 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/2.jpg
+2023-06-01 08:36:37 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:37 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/1.jpg
+2023-06-01 08:36:37 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:37 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:37 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:37 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:37 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:37 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/4.jpg
+2023-06-01 08:36:37 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:37 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/3.jpg
+2023-06-01 08:36:37 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:37 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/6.jpg
+2023-06-01 08:36:37 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:37 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/5.jpg
+2023-06-01 08:36:37 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:37 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:37 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:37 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:37 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:37 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:37 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:37 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/7.jpg
+2023-06-01 08:36:37 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:37 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:37 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:37 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:37 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:37 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/8.jpg
+2023-06-01 08:36:37 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:37 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:37 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:37 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/9.jpg
+2023-06-01 08:36:37 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:37 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:37 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:37 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/10.jpg
+2023-06-01 08:36:37 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:37 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:37 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:37 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/11.jpg
+2023-06-01 08:36:37 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:37 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:37 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:38 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/2toBasketJsp.jsp
+2023-06-01 08:36:38 INFO  MainServlet:38 - Process class by.fpmibsu.slastymordasty.controller.actions.ToBasketAction
+2023-06-01 08:36:38 INFO  CakeService:17 - Call constructor
+2023-06-01 08:36:38 WARN  CakeService:32 - method getById
+2023-06-01 08:36:38 INFO  CakeService:17 - Call constructor
+2023-06-01 08:36:38 WARN  CakeService:22 - method getAll
+2023-06-01 08:36:38 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/1.jpg
+2023-06-01 08:36:38 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:38 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/2.jpg
+2023-06-01 08:36:38 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:38 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:38 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:38 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:38 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:38 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/4.jpg
+2023-06-01 08:36:38 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:38 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/3.jpg
+2023-06-01 08:36:38 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:38 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:38 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:38 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:38 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:38 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/5.jpg
+2023-06-01 08:36:38 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/6.jpg
+2023-06-01 08:36:38 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:38 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:38 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:38 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:38 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:38 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:38 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/7.jpg
+2023-06-01 08:36:38 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:38 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:38 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:38 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/8.jpg
+2023-06-01 08:36:38 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:38 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:38 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:38 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/9.jpg
+2023-06-01 08:36:38 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:38 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:38 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:38 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/11.jpg
+2023-06-01 08:36:38 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/10.jpg
+2023-06-01 08:36:38 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:38 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:38 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:38 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:38 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:38 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:38 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/2toBasketJsp.jsp
+2023-06-01 08:36:38 INFO  MainServlet:38 - Process class by.fpmibsu.slastymordasty.controller.actions.ToBasketAction
+2023-06-01 08:36:38 INFO  CakeService:17 - Call constructor
+2023-06-01 08:36:38 WARN  CakeService:32 - method getById
+2023-06-01 08:36:38 INFO  CakeService:17 - Call constructor
+2023-06-01 08:36:38 WARN  CakeService:22 - method getAll
+2023-06-01 08:36:38 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/1.jpg
+2023-06-01 08:36:38 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:38 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:38 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:38 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/2.jpg
+2023-06-01 08:36:38 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:38 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:38 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:38 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/3.jpg
+2023-06-01 08:36:38 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:38 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:38 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:38 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/4.jpg
+2023-06-01 08:36:38 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:38 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/6.jpg
+2023-06-01 08:36:38 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/5.jpg
+2023-06-01 08:36:38 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:38 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:38 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:38 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:38 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:38 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:38 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:38 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:38 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/7.jpg
+2023-06-01 08:36:38 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:38 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:38 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:38 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/8.jpg
+2023-06-01 08:36:38 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:38 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:38 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:38 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/9.jpg
+2023-06-01 08:36:38 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:38 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:38 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:38 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/11.jpg
+2023-06-01 08:36:38 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/10.jpg
+2023-06-01 08:36:38 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:38 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:38 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:38 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:38 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:38 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:38 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/2toBasketJsp.jsp
+2023-06-01 08:36:38 INFO  MainServlet:38 - Process class by.fpmibsu.slastymordasty.controller.actions.ToBasketAction
+2023-06-01 08:36:38 INFO  CakeService:17 - Call constructor
+2023-06-01 08:36:38 WARN  CakeService:32 - method getById
+2023-06-01 08:36:38 INFO  CakeService:17 - Call constructor
+2023-06-01 08:36:38 WARN  CakeService:22 - method getAll
+2023-06-01 08:36:38 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/1.jpg
+2023-06-01 08:36:38 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:38 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/2.jpg
+2023-06-01 08:36:38 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:38 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:38 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:38 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:38 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:38 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/3.jpg
+2023-06-01 08:36:38 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:38 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:38 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:38 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/4.jpg
+2023-06-01 08:36:38 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:38 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:38 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:38 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/6.jpg
+2023-06-01 08:36:38 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:38 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/5.jpg
+2023-06-01 08:36:38 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:38 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:38 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:38 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:38 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:38 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/7.jpg
+2023-06-01 08:36:38 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:38 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:38 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:38 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/8.jpg
+2023-06-01 08:36:38 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:38 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:38 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:38 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/9.jpg
+2023-06-01 08:36:38 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:38 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:38 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:38 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/10.jpg
+2023-06-01 08:36:38 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:38 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/11.jpg
+2023-06-01 08:36:38 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:38 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:38 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:38 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:38 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:38 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/2toBasketJsp.jsp
+2023-06-01 08:36:38 INFO  MainServlet:38 - Process class by.fpmibsu.slastymordasty.controller.actions.ToBasketAction
+2023-06-01 08:36:38 INFO  CakeService:17 - Call constructor
+2023-06-01 08:36:38 WARN  CakeService:32 - method getById
+2023-06-01 08:36:38 INFO  CakeService:17 - Call constructor
+2023-06-01 08:36:38 WARN  CakeService:22 - method getAll
+2023-06-01 08:36:38 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/2.jpg
+2023-06-01 08:36:38 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:38 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/1.jpg
+2023-06-01 08:36:38 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:38 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:38 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:38 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:38 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:38 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/4.jpg
+2023-06-01 08:36:38 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:38 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/3.jpg
+2023-06-01 08:36:38 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:38 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:38 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:38 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:38 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:38 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/6.jpg
+2023-06-01 08:36:38 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:38 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/5.jpg
+2023-06-01 08:36:38 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:38 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:38 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:38 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:38 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:38 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/7.jpg
+2023-06-01 08:36:38 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:38 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:38 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:38 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/8.jpg
+2023-06-01 08:36:38 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:38 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:38 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:38 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/9.jpg
+2023-06-01 08:36:38 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:38 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:38 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:38 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/11.jpg
+2023-06-01 08:36:38 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:38 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/10.jpg
+2023-06-01 08:36:38 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:38 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:38 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:38 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:38 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/2toBasketJsp.jsp
+2023-06-01 08:36:39 INFO  MainServlet:38 - Process class by.fpmibsu.slastymordasty.controller.actions.ToBasketAction
+2023-06-01 08:36:39 INFO  CakeService:17 - Call constructor
+2023-06-01 08:36:39 WARN  CakeService:32 - method getById
+2023-06-01 08:36:39 INFO  CakeService:17 - Call constructor
+2023-06-01 08:36:39 WARN  CakeService:22 - method getAll
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/1.jpg
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/2.jpg
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/5.jpg
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/3.jpg
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/4.jpg
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/6.jpg
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/7.jpg
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/8.jpg
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/9.jpg
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/10.jpg
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/11.jpg
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/2toBasketJsp.jsp
+2023-06-01 08:36:39 INFO  MainServlet:38 - Process class by.fpmibsu.slastymordasty.controller.actions.ToBasketAction
+2023-06-01 08:36:39 INFO  CakeService:17 - Call constructor
+2023-06-01 08:36:39 WARN  CakeService:32 - method getById
+2023-06-01 08:36:39 INFO  CakeService:17 - Call constructor
+2023-06-01 08:36:39 WARN  CakeService:22 - method getAll
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/1.jpg
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/2.jpg
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/3.jpg
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/6.jpg
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/5.jpg
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/4.jpg
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/7.jpg
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/8.jpg
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/9.jpg
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/11.jpg
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/10.jpg
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/2toBasketJsp.jsp
+2023-06-01 08:36:39 INFO  MainServlet:38 - Process class by.fpmibsu.slastymordasty.controller.actions.ToBasketAction
+2023-06-01 08:36:39 INFO  CakeService:17 - Call constructor
+2023-06-01 08:36:39 WARN  CakeService:32 - method getById
+2023-06-01 08:36:39 INFO  CakeService:17 - Call constructor
+2023-06-01 08:36:39 WARN  CakeService:22 - method getAll
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/1.jpg
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/2.jpg
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/3.jpg
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/6.jpg
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/4.jpg
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/5.jpg
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/7.jpg
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/8.jpg
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/9.jpg
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/10.jpg
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/11.jpg
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/2toBasketJsp.jsp
+2023-06-01 08:36:39 INFO  MainServlet:38 - Process class by.fpmibsu.slastymordasty.controller.actions.ToBasketAction
+2023-06-01 08:36:39 INFO  CakeService:17 - Call constructor
+2023-06-01 08:36:39 WARN  CakeService:32 - method getById
+2023-06-01 08:36:39 INFO  CakeService:17 - Call constructor
+2023-06-01 08:36:39 WARN  CakeService:22 - method getAll
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/1.jpg
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/2.jpg
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/4.jpg
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/3.jpg
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/5.jpg
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/6.jpg
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/7.jpg
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/8.jpg
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/9.jpg
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/11.jpg
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/10.jpg
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/2toBasketJsp.jsp
+2023-06-01 08:36:39 INFO  MainServlet:38 - Process class by.fpmibsu.slastymordasty.controller.actions.ToBasketAction
+2023-06-01 08:36:39 INFO  CakeService:17 - Call constructor
+2023-06-01 08:36:39 WARN  CakeService:32 - method getById
+2023-06-01 08:36:39 INFO  CakeService:17 - Call constructor
+2023-06-01 08:36:39 WARN  CakeService:22 - method getAll
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/1.jpg
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/2.jpg
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/4.jpg
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/3.jpg
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/5.jpg
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/6.jpg
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/7.jpg
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/8.jpg
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/9.jpg
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/10.jpg
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/11.jpg
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/2toBasketJsp.jsp
+2023-06-01 08:36:39 INFO  MainServlet:38 - Process class by.fpmibsu.slastymordasty.controller.actions.ToBasketAction
+2023-06-01 08:36:39 INFO  CakeService:17 - Call constructor
+2023-06-01 08:36:39 WARN  CakeService:32 - method getById
+2023-06-01 08:36:39 INFO  CakeService:17 - Call constructor
+2023-06-01 08:36:39 WARN  CakeService:22 - method getAll
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/1.jpg
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/2.jpg
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/3.jpg
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/4.jpg
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/5.jpg
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/6.jpg
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/7.jpg
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/8.jpg
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/9.jpg
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/10.jpg
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/11.jpg
+2023-06-01 08:36:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:36:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:36:44 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/basket.jsp
+2023-06-01 08:36:44 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.NotFoundAction
+2023-06-01 08:40:33 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/basket.jsp
+2023-06-01 08:40:33 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.NotFoundAction
+2023-06-01 08:40:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/2toBasketJsp.jsp
+2023-06-01 08:40:39 INFO  MainServlet:38 - Process class by.fpmibsu.slastymordasty.controller.actions.ToBasketAction
+2023-06-01 08:40:39 INFO  CakeService:17 - Call constructor
+2023-06-01 08:40:39 WARN  CakeService:32 - method getById
+2023-06-01 08:40:39 INFO  CakeService:17 - Call constructor
+2023-06-01 08:40:39 WARN  CakeService:22 - method getAll
+2023-06-01 08:40:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/2.jpg
+2023-06-01 08:40:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:40:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/1.jpg
+2023-06-01 08:40:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:40:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:40:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:40:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:40:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:40:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/4.jpg
+2023-06-01 08:40:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/6.jpg
+2023-06-01 08:40:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:40:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/5.jpg
+2023-06-01 08:40:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:40:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:40:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:40:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/3.jpg
+2023-06-01 08:40:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:40:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:40:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:40:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:40:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:40:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:40:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:40:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:40:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/7.jpg
+2023-06-01 08:40:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:40:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:40:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:40:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/8.jpg
+2023-06-01 08:40:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:40:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:40:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:40:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/9.jpg
+2023-06-01 08:40:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:40:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:40:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:40:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/10.jpg
+2023-06-01 08:40:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:40:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:40:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:40:39 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/11.jpg
+2023-06-01 08:40:39 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:40:39 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:40:39 INFO  ImageAction:26 - method doAction
+2023-06-01 08:40:42 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/2toBasketJsp.jsp
+2023-06-01 08:40:42 INFO  MainServlet:38 - Process class by.fpmibsu.slastymordasty.controller.actions.ToBasketAction
+2023-06-01 08:40:42 INFO  CakeService:17 - Call constructor
+2023-06-01 08:40:42 WARN  CakeService:32 - method getById
+2023-06-01 08:40:42 INFO  CakeService:17 - Call constructor
+2023-06-01 08:40:42 WARN  CakeService:22 - method getAll
+2023-06-01 08:40:42 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/2.jpg
+2023-06-01 08:40:42 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:40:42 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/1.jpg
+2023-06-01 08:40:42 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:40:42 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:40:42 INFO  ImageAction:26 - method doAction
+2023-06-01 08:40:42 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:40:42 INFO  ImageAction:26 - method doAction
+2023-06-01 08:40:42 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/3.jpg
+2023-06-01 08:40:42 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/4.jpg
+2023-06-01 08:40:42 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:40:42 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/6.jpg
+2023-06-01 08:40:42 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:40:42 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/5.jpg
+2023-06-01 08:40:42 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:40:42 INFO  ImageAction:26 - method doAction
+2023-06-01 08:40:42 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:40:42 INFO  ImageAction:26 - method doAction
+2023-06-01 08:40:42 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:40:42 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:40:42 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:40:42 INFO  ImageAction:26 - method doAction
+2023-06-01 08:40:42 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:40:42 INFO  ImageAction:26 - method doAction
+2023-06-01 08:40:42 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/7.jpg
+2023-06-01 08:40:42 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:40:42 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:40:42 INFO  ImageAction:26 - method doAction
+2023-06-01 08:40:43 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/8.jpg
+2023-06-01 08:40:43 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:40:43 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:40:43 INFO  ImageAction:26 - method doAction
+2023-06-01 08:40:43 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/9.jpg
+2023-06-01 08:40:43 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:40:43 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/10.jpg
+2023-06-01 08:40:43 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:40:43 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:40:43 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:40:43 INFO  ImageAction:26 - method doAction
+2023-06-01 08:40:43 INFO  ImageAction:26 - method doAction
+2023-06-01 08:40:43 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/11.jpg
+2023-06-01 08:40:43 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:40:43 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:40:43 INFO  ImageAction:26 - method doAction
+2023-06-01 08:41:04 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/
+2023-06-01 08:41:04 INFO  StartAction:14 - Call constructor
+2023-06-01 08:41:04 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.StartAction
+2023-06-01 08:41:04 WARN  StartAction:20 - method doAction
+2023-06-01 08:41:05 INFO  CakeService:17 - Call constructor
+2023-06-01 08:41:05 WARN  CakeService:22 - method getAll
+2023-06-01 08:41:06 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/1.jpg
+2023-06-01 08:41:06 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/2.jpg
+2023-06-01 08:41:06 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/3.jpg
+2023-06-01 08:41:06 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:41:06 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:41:06 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:41:06 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:41:06 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:41:06 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/6.jpg
+2023-06-01 08:41:06 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/5.jpg
+2023-06-01 08:41:06 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:41:06 INFO  ImageAction:26 - method doAction
+2023-06-01 08:41:06 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/4.jpg
+2023-06-01 08:41:06 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:41:06 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:41:06 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:41:06 INFO  ImageAction:26 - method doAction
+2023-06-01 08:41:06 INFO  ImageAction:26 - method doAction
+2023-06-01 08:41:06 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:41:06 INFO  ImageAction:26 - method doAction
+2023-06-01 08:41:06 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:41:06 INFO  ImageAction:26 - method doAction
+2023-06-01 08:41:06 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:41:06 INFO  ImageAction:26 - method doAction
+2023-06-01 08:41:06 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/7.jpg
+2023-06-01 08:41:06 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/8.jpg
+2023-06-01 08:41:06 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:41:06 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/9.jpg
+2023-06-01 08:41:06 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:41:06 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:41:06 INFO  ImageAction:26 - method doAction
+2023-06-01 08:41:06 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:41:06 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:41:06 INFO  ImageAction:26 - method doAction
+2023-06-01 08:41:06 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:41:06 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/11.jpg
+2023-06-01 08:41:06 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:41:06 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/10.jpg
+2023-06-01 08:41:06 INFO  ImageAction:26 - method doAction
+2023-06-01 08:41:06 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:41:06 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:41:06 INFO  ImageAction:26 - method doAction
+2023-06-01 08:41:06 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:41:06 INFO  ImageAction:26 - method doAction
+2023-06-01 08:41:07 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/login.jsp
+2023-06-01 08:41:07 INFO  ToLoginPageAction:15 - Call constructor
+2023-06-01 08:41:07 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ToLoginPageAction
+2023-06-01 08:41:07 INFO  ToLoginPageAction:20 - method doAction
+2023-06-01 08:41:09 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/login.jsp
+2023-06-01 08:41:09 INFO  LoginAction:18 - Call constructor
+2023-06-01 08:41:09 INFO  MainServlet:38 - Process class by.fpmibsu.slastymordasty.controller.actions.LoginAction
+2023-06-01 08:41:09 INFO  LoginAction:23 - method doAction
+2023-06-01 08:41:09 INFO  UserService:17 - Call constructor
+2023-06-01 08:41:09 INFO  UserService:36 - method isExistByEmailPas
+2023-06-01 08:41:09 INFO  UserService:26 - method getUserByEmailPassword
+2023-06-01 08:41:09 INFO  CakeService:17 - Call constructor
+2023-06-01 08:41:09 WARN  CakeService:22 - method getAll
+2023-06-01 08:41:09 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/1.jpg
+2023-06-01 08:41:09 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:41:09 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:41:09 INFO  ImageAction:26 - method doAction
+2023-06-01 08:41:09 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/2.jpg
+2023-06-01 08:41:09 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:41:09 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:41:09 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/4.jpg
+2023-06-01 08:41:09 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:41:09 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/3.jpg
+2023-06-01 08:41:09 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/5.jpg
+2023-06-01 08:41:09 INFO  ImageAction:26 - method doAction
+2023-06-01 08:41:09 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:41:09 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:41:09 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:41:09 INFO  ImageAction:26 - method doAction
+2023-06-01 08:41:09 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:41:09 INFO  ImageAction:26 - method doAction
+2023-06-01 08:41:09 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/6.jpg
+2023-06-01 08:41:09 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:41:09 INFO  ImageAction:26 - method doAction
+2023-06-01 08:41:09 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:41:09 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:41:09 INFO  ImageAction:26 - method doAction
+2023-06-01 08:41:09 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/7.jpg
+2023-06-01 08:41:09 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:41:09 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:41:09 INFO  ImageAction:26 - method doAction
+2023-06-01 08:41:09 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/8.jpg
+2023-06-01 08:41:09 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:41:09 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:41:09 INFO  ImageAction:26 - method doAction
+2023-06-01 08:41:09 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/9.jpg
+2023-06-01 08:41:09 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:41:09 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:41:09 INFO  ImageAction:26 - method doAction
+2023-06-01 08:41:09 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/11.jpg
+2023-06-01 08:41:09 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/10.jpg
+2023-06-01 08:41:09 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:41:09 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:41:09 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:41:09 INFO  ImageAction:26 - method doAction
+2023-06-01 08:41:09 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:41:09 INFO  ImageAction:26 - method doAction
+2023-06-01 08:41:10 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/1toBasketJsp.jsp
+2023-06-01 08:41:10 INFO  MainServlet:38 - Process class by.fpmibsu.slastymordasty.controller.actions.ToBasketAction
+2023-06-01 08:41:10 INFO  CakeService:17 - Call constructor
+2023-06-01 08:41:10 WARN  CakeService:32 - method getById
+2023-06-01 08:41:10 INFO  CakeService:17 - Call constructor
+2023-06-01 08:41:10 WARN  CakeService:22 - method getAll
+2023-06-01 08:41:10 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/1.jpg
+2023-06-01 08:41:10 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:41:10 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/2.jpg
+2023-06-01 08:41:10 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:41:10 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:41:10 INFO  ImageAction:26 - method doAction
+2023-06-01 08:41:10 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:41:10 INFO  ImageAction:26 - method doAction
+2023-06-01 08:41:10 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/3.jpg
+2023-06-01 08:41:10 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:41:10 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/5.jpg
+2023-06-01 08:41:10 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:41:10 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/4.jpg
+2023-06-01 08:41:10 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/6.jpg
+2023-06-01 08:41:10 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:41:10 INFO  ImageAction:26 - method doAction
+2023-06-01 08:41:10 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:41:10 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:41:10 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:41:10 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:41:10 INFO  ImageAction:26 - method doAction
+2023-06-01 08:41:10 INFO  ImageAction:26 - method doAction
+2023-06-01 08:41:10 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/7.jpg
+2023-06-01 08:41:10 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:41:10 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:41:10 INFO  ImageAction:26 - method doAction
+2023-06-01 08:41:10 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:41:10 INFO  ImageAction:26 - method doAction
+2023-06-01 08:41:10 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/8.jpg
+2023-06-01 08:41:10 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:41:10 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:41:10 INFO  ImageAction:26 - method doAction
+2023-06-01 08:41:10 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/9.jpg
+2023-06-01 08:41:10 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:41:10 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:41:10 INFO  ImageAction:26 - method doAction
+2023-06-01 08:41:10 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/10.jpg
+2023-06-01 08:41:10 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:41:10 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:41:10 INFO  ImageAction:26 - method doAction
+2023-06-01 08:41:10 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/11.jpg
+2023-06-01 08:41:10 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:41:10 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:41:10 INFO  ImageAction:26 - method doAction
+2023-06-01 08:41:11 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/basket.jsp
+2023-06-01 08:41:11 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ToBasketPageAction
+2023-06-01 08:43:53 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/
+2023-06-01 08:43:53 INFO  StartAction:14 - Call constructor
+2023-06-01 08:43:53 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.StartAction
+2023-06-01 08:43:53 WARN  StartAction:20 - method doAction
+2023-06-01 08:43:54 INFO  CakeService:17 - Call constructor
+2023-06-01 08:43:54 WARN  CakeService:22 - method getAll
+2023-06-01 08:43:54 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/2.jpg
+2023-06-01 08:43:54 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/1.jpg
+2023-06-01 08:43:54 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/3.jpg
+2023-06-01 08:43:54 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:43:54 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:43:54 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:43:54 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:43:54 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:43:54 INFO  ImageAction:26 - method doAction
+2023-06-01 08:43:54 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/5.jpg
+2023-06-01 08:43:54 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:43:54 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:43:54 INFO  ImageAction:26 - method doAction
+2023-06-01 08:43:54 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/6.jpg
+2023-06-01 08:43:54 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/4.jpg
+2023-06-01 08:43:54 INFO  ImageAction:26 - method doAction
+2023-06-01 08:43:54 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:43:54 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:43:54 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:43:54 INFO  ImageAction:26 - method doAction
+2023-06-01 08:43:54 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:43:54 INFO  ImageAction:26 - method doAction
+2023-06-01 08:43:54 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:43:54 INFO  ImageAction:26 - method doAction
+2023-06-01 08:43:54 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/8.jpg
+2023-06-01 08:43:54 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/7.jpg
+2023-06-01 08:43:54 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/9.jpg
+2023-06-01 08:43:54 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:43:54 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:43:54 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:43:54 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:43:54 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:43:54 INFO  ImageAction:26 - method doAction
+2023-06-01 08:43:54 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:43:54 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/10.jpg
+2023-06-01 08:43:54 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:43:54 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/11.jpg
+2023-06-01 08:43:54 INFO  ImageAction:26 - method doAction
+2023-06-01 08:43:54 INFO  ImageAction:26 - method doAction
+2023-06-01 08:43:54 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:43:54 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:43:54 INFO  ImageAction:26 - method doAction
+2023-06-01 08:43:54 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:43:54 INFO  ImageAction:26 - method doAction
+2023-06-01 08:43:56 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/login.jsp
+2023-06-01 08:43:56 INFO  ToLoginPageAction:15 - Call constructor
+2023-06-01 08:43:56 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ToLoginPageAction
+2023-06-01 08:43:56 INFO  ToLoginPageAction:20 - method doAction
+2023-06-01 08:43:57 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/login.jsp
+2023-06-01 08:43:57 INFO  LoginAction:18 - Call constructor
+2023-06-01 08:43:57 INFO  MainServlet:38 - Process class by.fpmibsu.slastymordasty.controller.actions.LoginAction
+2023-06-01 08:43:57 INFO  LoginAction:23 - method doAction
+2023-06-01 08:43:57 INFO  UserService:17 - Call constructor
+2023-06-01 08:43:57 INFO  UserService:36 - method isExistByEmailPas
+2023-06-01 08:43:57 INFO  UserService:26 - method getUserByEmailPassword
+2023-06-01 08:43:57 INFO  CakeService:17 - Call constructor
+2023-06-01 08:43:57 WARN  CakeService:22 - method getAll
+2023-06-01 08:43:57 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/1.jpg
+2023-06-01 08:43:57 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:43:57 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:43:57 INFO  ImageAction:26 - method doAction
+2023-06-01 08:43:57 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/3.jpg
+2023-06-01 08:43:57 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/5.jpg
+2023-06-01 08:43:57 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/6.jpg
+2023-06-01 08:43:57 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:43:57 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/4.jpg
+2023-06-01 08:43:57 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/2.jpg
+2023-06-01 08:43:57 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:43:57 INFO  ImageAction:26 - method doAction
+2023-06-01 08:43:57 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:43:57 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:43:57 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:43:57 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:43:57 INFO  ImageAction:26 - method doAction
+2023-06-01 08:43:57 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:43:57 INFO  ImageAction:26 - method doAction
+2023-06-01 08:43:57 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:43:57 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:43:57 INFO  ImageAction:26 - method doAction
+2023-06-01 08:43:57 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:43:57 INFO  ImageAction:26 - method doAction
+2023-06-01 08:43:57 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/7.jpg
+2023-06-01 08:43:57 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:43:57 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/8.jpg
+2023-06-01 08:43:57 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:43:57 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:43:57 INFO  ImageAction:26 - method doAction
+2023-06-01 08:43:57 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:43:57 INFO  ImageAction:26 - method doAction
+2023-06-01 08:43:57 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/9.jpg
+2023-06-01 08:43:57 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:43:57 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:43:57 INFO  ImageAction:26 - method doAction
+2023-06-01 08:43:57 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/11.jpg
+2023-06-01 08:43:57 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:43:57 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/10.jpg
+2023-06-01 08:43:57 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:43:57 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:43:57 INFO  ImageAction:26 - method doAction
+2023-06-01 08:43:57 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:43:57 INFO  ImageAction:26 - method doAction
+2023-06-01 08:43:58 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/1toBasketJsp.jsp
+2023-06-01 08:43:58 INFO  MainServlet:38 - Process class by.fpmibsu.slastymordasty.controller.actions.ToBasketAction
+2023-06-01 08:43:58 INFO  CakeService:17 - Call constructor
+2023-06-01 08:43:58 WARN  CakeService:32 - method getById
+2023-06-01 08:43:58 INFO  CakeService:17 - Call constructor
+2023-06-01 08:43:58 WARN  CakeService:22 - method getAll
+2023-06-01 08:43:58 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/2.jpg
+2023-06-01 08:43:58 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:43:58 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/1.jpg
+2023-06-01 08:43:58 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:43:58 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:43:58 INFO  ImageAction:26 - method doAction
+2023-06-01 08:43:58 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:43:58 INFO  ImageAction:26 - method doAction
+2023-06-01 08:43:58 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/3.jpg
+2023-06-01 08:43:58 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:43:58 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/5.jpg
+2023-06-01 08:43:58 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:43:58 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/4.jpg
+2023-06-01 08:43:58 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/6.jpg
+2023-06-01 08:43:58 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:43:58 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:43:58 INFO  ImageAction:26 - method doAction
+2023-06-01 08:43:58 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:43:58 INFO  ImageAction:26 - method doAction
+2023-06-01 08:43:58 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/7.jpg
+2023-06-01 08:43:58 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:43:58 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:43:58 INFO  ImageAction:26 - method doAction
+2023-06-01 08:43:58 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:43:58 INFO  ImageAction:26 - method doAction
+2023-06-01 08:43:58 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:43:58 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:43:58 INFO  ImageAction:26 - method doAction
+2023-06-01 08:43:58 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/8.jpg
+2023-06-01 08:43:58 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:43:58 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:43:58 INFO  ImageAction:26 - method doAction
+2023-06-01 08:43:58 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/9.jpg
+2023-06-01 08:43:58 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:43:58 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:43:58 INFO  ImageAction:26 - method doAction
+2023-06-01 08:43:58 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/10.jpg
+2023-06-01 08:43:58 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:43:58 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:43:58 INFO  ImageAction:26 - method doAction
+2023-06-01 08:43:58 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/11.jpg
+2023-06-01 08:43:58 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:43:58 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:43:58 INFO  ImageAction:26 - method doAction
+2023-06-01 08:43:59 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/basket.jsp
+2023-06-01 08:43:59 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ToBasketPageAction
+2023-06-01 08:44:03 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/2toBasketJsp.jsp
+2023-06-01 08:44:03 INFO  MainServlet:38 - Process class by.fpmibsu.slastymordasty.controller.actions.ToBasketAction
+2023-06-01 08:44:03 INFO  CakeService:17 - Call constructor
+2023-06-01 08:44:03 WARN  CakeService:32 - method getById
+2023-06-01 08:44:03 INFO  CakeService:17 - Call constructor
+2023-06-01 08:44:03 WARN  CakeService:22 - method getAll
+2023-06-01 08:44:03 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/1.jpg
+2023-06-01 08:44:03 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:44:03 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/2.jpg
+2023-06-01 08:44:03 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:44:03 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:44:03 INFO  ImageAction:26 - method doAction
+2023-06-01 08:44:03 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:44:03 INFO  ImageAction:26 - method doAction
+2023-06-01 08:44:03 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/4.jpg
+2023-06-01 08:44:03 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/6.jpg
+2023-06-01 08:44:03 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/5.jpg
+2023-06-01 08:44:03 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:44:03 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/3.jpg
+2023-06-01 08:44:03 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:44:03 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:44:03 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:44:03 INFO  ImageAction:26 - method doAction
+2023-06-01 08:44:03 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:44:03 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:44:03 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:44:03 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:44:03 INFO  ImageAction:26 - method doAction
+2023-06-01 08:44:03 INFO  ImageAction:26 - method doAction
+2023-06-01 08:44:03 INFO  ImageAction:26 - method doAction
+2023-06-01 08:44:03 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/7.jpg
+2023-06-01 08:44:03 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:44:03 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:44:03 INFO  ImageAction:26 - method doAction
+2023-06-01 08:44:03 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/8.jpg
+2023-06-01 08:44:03 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:44:03 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:44:03 INFO  ImageAction:26 - method doAction
+2023-06-01 08:44:03 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/9.jpg
+2023-06-01 08:44:03 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:44:03 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/10.jpg
+2023-06-01 08:44:03 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:44:03 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:44:03 INFO  ImageAction:26 - method doAction
+2023-06-01 08:44:03 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:44:03 INFO  ImageAction:26 - method doAction
+2023-06-01 08:44:03 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/11.jpg
+2023-06-01 08:44:03 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:44:03 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:44:03 INFO  ImageAction:26 - method doAction
+2023-06-01 08:44:04 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/3toBasketJsp.jsp
+2023-06-01 08:44:04 INFO  MainServlet:38 - Process class by.fpmibsu.slastymordasty.controller.actions.ToBasketAction
+2023-06-01 08:44:04 INFO  CakeService:17 - Call constructor
+2023-06-01 08:44:04 WARN  CakeService:32 - method getById
+2023-06-01 08:44:04 INFO  CakeService:17 - Call constructor
+2023-06-01 08:44:04 WARN  CakeService:22 - method getAll
+2023-06-01 08:44:04 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/1.jpg
+2023-06-01 08:44:04 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:44:04 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:44:04 INFO  ImageAction:26 - method doAction
+2023-06-01 08:44:04 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/2.jpg
+2023-06-01 08:44:04 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:44:04 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:44:04 INFO  ImageAction:26 - method doAction
+2023-06-01 08:44:04 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/5.jpg
+2023-06-01 08:44:04 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/6.jpg
+2023-06-01 08:44:04 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/4.jpg
+2023-06-01 08:44:04 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/3.jpg
+2023-06-01 08:44:04 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:44:04 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:44:04 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:44:04 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:44:04 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:44:04 INFO  ImageAction:26 - method doAction
+2023-06-01 08:44:04 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:44:04 INFO  ImageAction:26 - method doAction
+2023-06-01 08:44:04 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:44:04 INFO  ImageAction:26 - method doAction
+2023-06-01 08:44:04 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:44:04 INFO  ImageAction:26 - method doAction
+2023-06-01 08:44:04 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/7.jpg
+2023-06-01 08:44:04 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:44:04 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:44:04 INFO  ImageAction:26 - method doAction
+2023-06-01 08:44:04 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/8.jpg
+2023-06-01 08:44:04 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:44:04 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:44:04 INFO  ImageAction:26 - method doAction
+2023-06-01 08:44:04 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/9.jpg
+2023-06-01 08:44:04 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:44:04 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:44:04 INFO  ImageAction:26 - method doAction
+2023-06-01 08:44:04 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/10.jpg
+2023-06-01 08:44:04 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:44:04 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/11.jpg
+2023-06-01 08:44:04 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:44:04 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:44:04 INFO  ImageAction:26 - method doAction
+2023-06-01 08:44:04 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:44:04 INFO  ImageAction:26 - method doAction
+2023-06-01 08:44:05 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/basket.jsp
+2023-06-01 08:44:05 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ToBasketPageAction
+2023-06-01 08:46:03 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/
+2023-06-01 08:46:03 INFO  StartAction:14 - Call constructor
+2023-06-01 08:46:03 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.StartAction
+2023-06-01 08:46:03 WARN  StartAction:20 - method doAction
+2023-06-01 08:46:04 INFO  CakeService:17 - Call constructor
+2023-06-01 08:46:04 WARN  CakeService:22 - method getAll
+2023-06-01 08:46:05 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/1.jpg
+2023-06-01 08:46:05 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/2.jpg
+2023-06-01 08:46:05 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:46:05 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:46:05 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:46:05 INFO  ImageAction:26 - method doAction
+2023-06-01 08:46:05 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:46:05 INFO  ImageAction:26 - method doAction
+2023-06-01 08:46:05 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/3.jpg
+2023-06-01 08:46:05 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:46:05 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/5.jpg
+2023-06-01 08:46:05 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:46:05 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:46:05 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:46:05 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/4.jpg
+2023-06-01 08:46:05 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/6.jpg
+2023-06-01 08:46:05 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:46:05 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:46:05 INFO  ImageAction:26 - method doAction
+2023-06-01 08:46:05 INFO  ImageAction:26 - method doAction
+2023-06-01 08:46:05 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:46:05 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:46:05 INFO  ImageAction:26 - method doAction
+2023-06-01 08:46:05 INFO  ImageAction:26 - method doAction
+2023-06-01 08:46:05 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/8.jpg
+2023-06-01 08:46:05 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/9.jpg
+2023-06-01 08:46:05 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:46:05 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/7.jpg
+2023-06-01 08:46:05 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:46:05 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:46:05 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:46:05 INFO  ImageAction:26 - method doAction
+2023-06-01 08:46:05 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/10.jpg
+2023-06-01 08:46:05 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:46:05 INFO  ImageAction:26 - method doAction
+2023-06-01 08:46:05 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/11.jpg
+2023-06-01 08:46:05 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:46:05 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:46:05 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:46:05 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:46:05 INFO  ImageAction:26 - method doAction
+2023-06-01 08:46:05 INFO  ImageAction:26 - method doAction
+2023-06-01 08:46:05 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:46:05 INFO  ImageAction:26 - method doAction
+2023-06-01 08:46:06 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/login.jsp
+2023-06-01 08:46:06 INFO  ToLoginPageAction:15 - Call constructor
+2023-06-01 08:46:06 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ToLoginPageAction
+2023-06-01 08:46:06 INFO  ToLoginPageAction:20 - method doAction
+2023-06-01 08:46:07 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/login.jsp
+2023-06-01 08:46:07 INFO  LoginAction:18 - Call constructor
+2023-06-01 08:46:07 INFO  MainServlet:38 - Process class by.fpmibsu.slastymordasty.controller.actions.LoginAction
+2023-06-01 08:46:07 INFO  LoginAction:23 - method doAction
+2023-06-01 08:46:07 INFO  UserService:17 - Call constructor
+2023-06-01 08:46:07 INFO  UserService:36 - method isExistByEmailPas
+2023-06-01 08:46:07 INFO  UserService:26 - method getUserByEmailPassword
+2023-06-01 08:46:07 INFO  CakeService:17 - Call constructor
+2023-06-01 08:46:07 WARN  CakeService:22 - method getAll
+2023-06-01 08:46:07 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/1.jpg
+2023-06-01 08:46:07 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:46:07 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:46:07 INFO  ImageAction:26 - method doAction
+2023-06-01 08:46:07 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/2.jpg
+2023-06-01 08:46:07 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:46:07 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:46:07 INFO  ImageAction:26 - method doAction
+2023-06-01 08:46:07 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/3.jpg
+2023-06-01 08:46:07 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/6.jpg
+2023-06-01 08:46:07 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:46:07 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/5.jpg
+2023-06-01 08:46:07 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:46:07 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/4.jpg
+2023-06-01 08:46:07 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:46:07 INFO  ImageAction:26 - method doAction
+2023-06-01 08:46:07 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:46:07 INFO  ImageAction:26 - method doAction
+2023-06-01 08:46:07 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:46:07 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:46:07 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:46:07 INFO  ImageAction:26 - method doAction
+2023-06-01 08:46:07 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:46:07 INFO  ImageAction:26 - method doAction
+2023-06-01 08:46:07 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/7.jpg
+2023-06-01 08:46:07 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:46:07 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:46:07 INFO  ImageAction:26 - method doAction
+2023-06-01 08:46:07 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/8.jpg
+2023-06-01 08:46:07 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:46:07 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/9.jpg
+2023-06-01 08:46:07 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:46:07 INFO  ImageAction:26 - method doAction
+2023-06-01 08:46:07 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:46:07 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:46:07 INFO  ImageAction:26 - method doAction
+2023-06-01 08:46:07 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/10.jpg
+2023-06-01 08:46:07 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:46:07 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/11.jpg
+2023-06-01 08:46:07 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:46:07 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:46:07 INFO  ImageAction:26 - method doAction
+2023-06-01 08:46:07 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:46:07 INFO  ImageAction:26 - method doAction
+2023-06-01 08:46:09 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/1toBasketJsp.jsp
+2023-06-01 08:46:09 INFO  MainServlet:38 - Process class by.fpmibsu.slastymordasty.controller.actions.ToBasketAction
+2023-06-01 08:46:09 INFO  CakeService:17 - Call constructor
+2023-06-01 08:46:09 WARN  CakeService:32 - method getById
+2023-06-01 08:46:09 INFO  CakeService:17 - Call constructor
+2023-06-01 08:46:09 WARN  CakeService:22 - method getAll
+2023-06-01 08:46:09 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/2.jpg
+2023-06-01 08:46:09 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:46:09 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/1.jpg
+2023-06-01 08:46:09 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:46:09 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:46:09 INFO  ImageAction:26 - method doAction
+2023-06-01 08:46:09 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:46:09 INFO  ImageAction:26 - method doAction
+2023-06-01 08:46:09 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/3.jpg
+2023-06-01 08:46:09 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/4.jpg
+2023-06-01 08:46:09 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/5.jpg
+2023-06-01 08:46:09 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:46:09 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/6.jpg
+2023-06-01 08:46:09 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:46:09 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:46:09 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:46:09 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:46:09 INFO  ImageAction:26 - method doAction
+2023-06-01 08:46:09 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:46:09 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:46:09 INFO  ImageAction:26 - method doAction
+2023-06-01 08:46:09 INFO  ImageAction:26 - method doAction
+2023-06-01 08:46:09 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:46:09 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/7.jpg
+2023-06-01 08:46:09 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:46:09 INFO  ImageAction:26 - method doAction
+2023-06-01 08:46:09 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:46:09 INFO  ImageAction:26 - method doAction
+2023-06-01 08:46:09 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/8.jpg
+2023-06-01 08:46:09 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:46:09 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:46:09 INFO  ImageAction:26 - method doAction
+2023-06-01 08:46:09 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/9.jpg
+2023-06-01 08:46:09 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:46:09 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/10.jpg
+2023-06-01 08:46:09 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:46:09 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:46:09 INFO  ImageAction:26 - method doAction
+2023-06-01 08:46:09 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:46:09 INFO  ImageAction:26 - method doAction
+2023-06-01 08:46:09 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/11.jpg
+2023-06-01 08:46:09 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:46:09 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:46:09 INFO  ImageAction:26 - method doAction
+2023-06-01 08:46:11 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/2toBasketJsp.jsp
+2023-06-01 08:46:11 INFO  MainServlet:38 - Process class by.fpmibsu.slastymordasty.controller.actions.ToBasketAction
+2023-06-01 08:46:11 INFO  CakeService:17 - Call constructor
+2023-06-01 08:46:11 WARN  CakeService:32 - method getById
+2023-06-01 08:46:11 INFO  CakeService:17 - Call constructor
+2023-06-01 08:46:11 WARN  CakeService:22 - method getAll
+2023-06-01 08:46:11 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/1.jpg
+2023-06-01 08:46:11 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:46:11 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/2.jpg
+2023-06-01 08:46:11 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:46:11 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:46:11 INFO  ImageAction:26 - method doAction
+2023-06-01 08:46:11 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:46:11 INFO  ImageAction:26 - method doAction
+2023-06-01 08:46:11 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/4.jpg
+2023-06-01 08:46:11 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/3.jpg
+2023-06-01 08:46:11 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/5.jpg
+2023-06-01 08:46:11 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:46:11 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/6.jpg
+2023-06-01 08:46:11 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:46:11 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:46:11 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:46:11 INFO  ImageAction:26 - method doAction
+2023-06-01 08:46:11 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:46:11 INFO  ImageAction:26 - method doAction
+2023-06-01 08:46:11 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:46:11 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:46:11 INFO  ImageAction:26 - method doAction
+2023-06-01 08:46:11 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:46:11 INFO  ImageAction:26 - method doAction
+2023-06-01 08:46:11 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/7.jpg
+2023-06-01 08:46:11 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:46:11 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:46:11 INFO  ImageAction:26 - method doAction
+2023-06-01 08:46:11 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/8.jpg
+2023-06-01 08:46:11 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:46:11 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:46:11 INFO  ImageAction:26 - method doAction
+2023-06-01 08:46:11 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/9.jpg
+2023-06-01 08:46:11 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:46:11 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:46:11 INFO  ImageAction:26 - method doAction
+2023-06-01 08:46:11 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/10.jpg
+2023-06-01 08:46:11 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:46:11 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/11.jpg
+2023-06-01 08:46:11 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:46:11 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:46:11 INFO  ImageAction:26 - method doAction
+2023-06-01 08:46:11 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:46:11 INFO  ImageAction:26 - method doAction
+2023-06-01 08:46:12 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/3toBasketJsp.jsp
+2023-06-01 08:46:12 INFO  MainServlet:38 - Process class by.fpmibsu.slastymordasty.controller.actions.ToBasketAction
+2023-06-01 08:46:12 INFO  CakeService:17 - Call constructor
+2023-06-01 08:46:12 WARN  CakeService:32 - method getById
+2023-06-01 08:46:12 INFO  CakeService:17 - Call constructor
+2023-06-01 08:46:12 WARN  CakeService:22 - method getAll
+2023-06-01 08:46:12 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/1.jpg
+2023-06-01 08:46:12 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:46:12 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/2.jpg
+2023-06-01 08:46:12 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:46:12 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:46:12 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:46:12 INFO  ImageAction:26 - method doAction
+2023-06-01 08:46:12 INFO  ImageAction:26 - method doAction
+2023-06-01 08:46:12 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/4.jpg
+2023-06-01 08:46:12 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/5.jpg
+2023-06-01 08:46:12 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/6.jpg
+2023-06-01 08:46:12 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:46:12 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/3.jpg
+2023-06-01 08:46:12 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:46:12 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:46:12 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:46:12 INFO  ImageAction:26 - method doAction
+2023-06-01 08:46:12 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:46:12 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:46:12 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:46:12 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:46:12 INFO  ImageAction:26 - method doAction
+2023-06-01 08:46:12 INFO  ImageAction:26 - method doAction
+2023-06-01 08:46:12 INFO  ImageAction:26 - method doAction
+2023-06-01 08:46:12 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/7.jpg
+2023-06-01 08:46:12 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:46:12 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:46:12 INFO  ImageAction:26 - method doAction
+2023-06-01 08:46:12 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/8.jpg
+2023-06-01 08:46:12 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:46:12 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/9.jpg
+2023-06-01 08:46:12 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:46:12 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:46:12 INFO  ImageAction:26 - method doAction
+2023-06-01 08:46:12 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:46:12 INFO  ImageAction:26 - method doAction
+2023-06-01 08:46:12 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/10.jpg
+2023-06-01 08:46:12 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:46:12 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/img/11.jpg
+2023-06-01 08:46:12 INFO  ImageAction:20 - Call constructor
+2023-06-01 08:46:12 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:46:12 INFO  ImageAction:26 - method doAction
+2023-06-01 08:46:12 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ImageAction
+2023-06-01 08:46:12 INFO  ImageAction:26 - method doAction
+2023-06-01 08:46:13 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/basket.jsp
+2023-06-01 08:46:13 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ToBasketPageAction
+2023-06-01 08:46:42 INFO  ActionFilter:39 - Catch url : /Slasty-Mordasty/basket.jsp
+2023-06-01 08:46:42 INFO  MainServlet:25 - Process class by.fpmibsu.slastymordasty.controller.actions.ToBasketPageAction

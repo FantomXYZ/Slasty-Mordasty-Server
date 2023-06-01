@@ -13,13 +13,9 @@ public class OrderProdService {
     private OrderProdDao orderProdDao;
 
     public OrderProdService()  {
-        log.warn("Call constructor");
-        // try {
+        log.info("Call constructor");
         orderProdDao = new OrderProdDao();
-        //  }
-      /*  catch (SQLException | InterruptedException e) {
-            log.warn(e.getMessage());
-        } */
+
 
     }
 

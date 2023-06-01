@@ -14,37 +14,37 @@ public class UserService {
     private static final Logger log = Logger.getLogger(UserService.class);
 
     public UserService(){
-        log.warn("Call constructor");
+        log.info("Call constructor");
         try {
             userDao = new UserDao();
         } catch (SQLException | InterruptedException e) {
-            log.info(e.getMessage());
+            log.error(e.getMessage());
         }
     }
 
     public User getUserByEmailPassword(String login,String password){
-        log.warn("method getUserByEmailPassword");
+        log.info("method getUserByEmailPassword");
         try {
             return  userDao.getUserByEmailPassword(login,password);
         } catch (SQLException | InterruptedException e) {
-            log.warn(e.getMessage());
+            log.error(e.getMessage());
         }
         return null;
     }
 
     public boolean isExistByEmailPas(String login,String password){
-        log.warn("method isExistByEmailPas");
+        log.info("method isExistByEmailPas");
         try {
             return userDao.isExistByEmailPas(login,password);
         } catch (SQLException | InterruptedException e) {
-            log.warn(e.getMessage());
+            log.error(e.getMessage());
         }
         return false;
     }
 
 
     public void  insertNew(User user){
-        log.warn("method insertNew");
+        log.info("method insertNew");
         try {
             userDao.insertUser(user);
         } catch (InterruptedException e) {
@@ -53,57 +53,57 @@ public class UserService {
     }
 
     public List<User> getAllUsers(){
-        log.warn("method getAllUsers");
+        log.info("method getAllUsers");
         try {
             return userDao.getAllUsers();
         } catch (InterruptedException e) {
-            log.warn(e.getMessage());
+            log.error(e.getMessage());
         }
         return null;
     }
 
     public void deleteUserById(long id){
-        log.warn("method deleteUserById");
+        log.info("method deleteUserById");
         try {
             userDao.deleteUserById(id);
         } catch (InterruptedException e) {
-            log.warn(e.getMessage());
+            log.error(e.getMessage());
         }
     }
 
     public void updateUserEmail(long id, String email){
-        log.warn("method updateUserEmail");
+        log.info("method updateUserEmail");
         try {
             userDao.updateUserEmail(id,email);
         } catch (InterruptedException e) {
-            log.warn(e.getMessage());
+            log.error(e.getMessage());
         }
     }
 
     public void updateUserPhone(long id,String phone){
-        log.warn("method updateUserPhone");
+        log.info("method updateUserPhone");
         try {
             userDao.updateUserPhone(id,phone);
         } catch (InterruptedException e) {
-            log.warn(e.getMessage());
+            log.error(e.getMessage());
         }
     }
 
     public void updateUserPassword(long id,String password){
-        log.warn("method updateUserPassword");
+        log.info("method updateUserPassword");
         try {
             userDao.updateUserPassword(id,password);
         } catch (InterruptedException e) {
-            log.warn(e.getMessage());
+            log.error(e.getMessage());
         }
     }
 
     public void updateUserAddress(long id,String addressStreet, String numHouseFlat){
-        log.warn("method updateUserAddress");
+        log.info("method updateUserAddress");
         try {
             userDao.updateUserAddress(id,addressStreet,numHouseFlat);
         } catch (InterruptedException e) {
-            log.warn(e.getMessage());
+            log.error(e.getMessage());
         }
     }
 }

@@ -14,7 +14,7 @@ public class CakeService {
 
     public CakeService(){
         cakeDao = new CakeDao();
-        log.warn("Call constructor");
+        log.info("Call constructor");
     }
 
 

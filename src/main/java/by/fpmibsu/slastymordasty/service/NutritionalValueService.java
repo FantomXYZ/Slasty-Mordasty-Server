@@ -15,7 +15,7 @@ public class NutritionalValueService {
     private NutritionalValueDao nutritionalValueDao;
 
     public NutritionalValueService()  {
-        log.warn("Call constructor");
+        log.info("Call constructor");
         try {
             nutritionalValueDao = new NutritionalValueDao();
         } catch (SQLException | InterruptedException e) {

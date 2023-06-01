@@ -51,8 +51,17 @@
                     out.print("<button class=\"fciA navItem\"><span class = \"fciSpan\">Админка</span></button>");
                     out.print("</form>");
                 } else if(role == 0){
+
+                    List<Cake> basket = (List<Cake>)checkSession.getAttribute("basket");
+                    int basket_size;
+                    if(basket == null){
+                        basket_size = 0;
+                    } else{
+                        basket_size = basket.size();
+                    }
+
                     out.print("<form action=\"basket.jsp\" method=\"get\">");
-                    out.print("<button class=\"fciA navItem\"><span class = \"fciSpan\">Корзина</span></button>");
+                    out.print("<button class=\"fciA navItem\"><span class = \"fciSpan\">Корзина(" + basket_size + ")</span></button>");
                     out.print("</form>");
                     out.print("<form action=\"history.jsp\" method=\"get\">");
                     out.print("<button class=\"fciA navItem\"><span class = \"fciSpan\">История заказов</span></button>");
@@ -99,7 +108,7 @@
                     out.print("</form>");
 
                     if(role != null && role == 0){
-                        out.print("<form action=\"toBasketJsp.jsp\" method=\"post\">");
+                        out.print("<form action=\"" + item.getId() + "toBasketJsp.jsp\" method=\"post\">");
                         out.print("<button сlass=\"cardButton\">В корзину</button>");
                         out.print("</form>");
                     }
